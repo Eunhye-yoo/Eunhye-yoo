@@ -97,6 +97,14 @@ Java · Spring Boot · MyBatis · MySQL 기반 웹 프로젝트
 
 ---
 
+## 🖥️ Infrastructure Lab
+
+Linux · Network · Server · Docker 중심의 인프라 실습 및 기술 학습 기록
+
+[View Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+
+---
+
 ## 🎯 Direction
 
 개발과 인프라에 대한 기술적 이해를 바탕으로
