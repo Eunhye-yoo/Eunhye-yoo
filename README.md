@@ -77,7 +77,7 @@ Java, Servlet, Spring Boot, MyBatis, MySQL을 기반으로 웹 애플리케이�
 ## 📜 Certifications
 
 * **정보처리기사** — 필기 합격
-* **네트워크관리사 2급** — 필기 합격
+* **네트워크관리사 2급** — 취득
 * **Linux Master 2급** — 필기 합격
 
 ---
