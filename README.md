@@ -1,18 +1,15 @@
 # EunHye Yoo
 
-**Java · Spring 기반 웹 개발 | 서비스 구조와 데이터 흐름에 관심이 있습니다.**
+**Java · Spring 기반 웹 개발 | 서비스 구조와 데이터 흐름을 이해하며 만드는 개발자**
 
-교육 현장에서 다양한 사람과 업무를 조율하고 운영해 온 경험을 바탕으로
-사용자의 요구를 기능으로 구체화하고, 실제 구현 과정까지 이해하는 개발 역량을 쌓고 있습니다.
+교육 현장에서 사람과 업무를 조율해 온 경험을 바탕으로, 사용자의 요구를 기능으로 구체화하고 데이터와 서버 로직까지 연결해 이해하는 개발 역량을 쌓고 있습니다.
 
-Java, Servlet, Spring Boot, MyBatis, MySQL을 기반으로 웹 애플리케이션을 개발하고 있으며
-React, Linux, Docker, 네트워크·서버 환경까지 학습 범위를 확장하고 있습니다.
+Java, Servlet, Spring Boot, MyBatis, MySQL을 기반으로 웹 애플리케이션을 개발하고 있으며, React, Linux, Docker, 네트워크·서버 환경도 함께 학습하고 있습니다.
 
 프로젝트에서는 기능을 단순히 구현하는 것에 그치지 않고
 **기획 → 데이터 구조 → API → 서버 로직 → 실제 기능**으로 이어지는 전체 흐름을 이해하려고 합니다.
 
-AI를 활용한 ERD·Class Diagram 작성과 프로젝트 구조 분석을 진행하고,
-AI가 제안한 내용을 실제 코드와 DB 구조를 확인하며 검증하는 방식으로 학습하고 있습니다.
+프로젝트 구조를 파악할 때 AI를 활용해 ERD·Class Diagram과 코드 흐름을 정리하되, 실제 코드와 DB 구조를 직접 확인하며 검증하는 방식으로 학습하고 있습니다.
 
 ---
 
@@ -80,7 +77,7 @@ AI가 제안한 내용을 실제 코드와 DB 구조를 확인하며 검증하�
 ## 📜 Certifications
 
 * **정보처리기사** — 필기 합격
-* **네트워크관리사 2급** — 취득
+* **네트워크관리사 2급** — 필기 합격
 * **Linux Master 2급** — 필기 합격
 
 ---
@@ -89,7 +86,8 @@ AI가 제안한 내용을 실제 코드와 DB 구조를 확인하며 검증하�
 
 ### EduPOP
 
-**학생 성취도 분석 및 교사 지원 서비스**
+**학생 성취도 분석 및 교사 지원 서비스**  
+아이디어 제안 · 서비스 기획 · 핵심 기능 설계 및 구현
 
 Java · Spring Boot · MyBatis · MySQL 기반 웹 프로젝트
 
@@ -102,6 +100,13 @@ Java · Spring Boot · MyBatis · MySQL 기반 웹 프로젝트
 Linux · Network · Server · Docker 중심의 인프라 실습 및 기술 학습 기록
 
 [View Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+
+---
+
+## 📎 EduPOP Portfolio & Demo
+
+- 📄 서비스 기획 포트폴리오: `Eunhye-yoo/EduPOP/docs/`에 업로드 예정
+- 🎥 [EduPOP 시연 영상](https://youtu.be/mkAcPCD7VOY)
 
 ---
 
