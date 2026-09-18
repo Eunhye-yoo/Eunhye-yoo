@@ -101,12 +101,6 @@ Linux · Network · Server · Docker 중심의 인프라 실습 및 기술 학�
 
 [View Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
----
-
-## 📎 EduPOP Portfolio & Demo
-
-- 📄 서비스 기획 포트폴리오: `Eunhye-yoo/EduPOP/docs/`에 업로드 예정
-- 🎥 [EduPOP 시연 영상](https://youtu.be/mkAcPCD7VOY)
 
 ---
 
