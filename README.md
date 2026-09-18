@@ -38,26 +38,26 @@ Java·Spring 기반 웹 프로젝트를 개발하며 **기획한 기능이 데�
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-**Learning:** Linux · Docker · Network & Server · REST API · Web Architecture · Cloud Infrastructure · React
+**Current Learning:** Linux · Docker · Network & Server · Cloud Infrastructure · React
 
 <br />
 
 ## 03 · Selected Project
 
-### EduPOP ↗
+### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
 **시험 결과를 다음 수업과 학습으로 연결하는 교육 플랫폼**
 
 `Java` `Spring Boot` `MyBatis` `MySQL`
 
-**아이디어 제안 · 서비스 기획 · 핵심 기능 설계 및 구현**
+**아이디어 제안 · 서비스 기획 · 데이터 흐름 설계 · 핵심 기능 구현**
 
 - **3분 수업 보완 대시보드** — 반·학생별 성취도와 취약 영역을 분석해 다음 수업의 보완 포인트를 제공
 - **개인 성적 분석** — 영역별 성취도와 강점·취약 영역을 시각화하고, 다른 기능에서도 재사용할 수 있도록 분석 구조 구성
-- **반 생성·학생/교사 배정** — 복수 교사 배정, 중복 방지, 과거 데이터 보호를 고려한 관리 기능 설계 및 구현
+- **반 생성·학생/교사 배정** — 복수 교사 배정, 반 운영 상태 관리, 중복·정원 검증을 포함한 관리 기능 설계 및 구현
 - **기능 간 데이터 재사용** — 다른 팀원의 월간 학생 리포트에서 분석 결과를 활용할 수 있도록 내부 API/메서드 구조 구성
 
-[Repository](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
+[Demo Video](https://youtu.be/mkAcPCD7VOY)
 
 <br />
 
@@ -65,7 +65,7 @@ Java·Spring 기반 웹 프로젝트를 개발하며 **기획한 기능이 데�
 
 - **네트워크관리사 2급** — 취득
 - **정보처리기사** — 필기 합격
-- **Linux Master 2급** — 필기 합격
+- **리눅스마스터 2급** — 필기 합격
 
 <br />
 
