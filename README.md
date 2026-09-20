@@ -38,7 +38,14 @@ Java·Spring 기반 웹 프로젝트를 개발하며 **기획한 기능이 데�
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-**Current Learning:** Linux · Docker · Network & Server · Cloud Infrastructure · React
+### Infrastructure · Learning
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Network & Server](https://img.shields.io/badge/%F0%9F%8C%90%20Network%20%26%20Server-475569?style=flat-square)
+![Cloud Infrastructure](https://img.shields.io/badge/%E2%98%81%20Cloud%20Infrastructure-0284C7?style=flat-square)
+
+### Frontend · Learning
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
 <br />
 
