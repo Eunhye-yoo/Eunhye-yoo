@@ -65,7 +65,16 @@ Java·Spring 기반 웹 프로젝트를 개발하며 **기획한 기능이 데�
 
 <br />
 
-## 04 · Certifications
+## 04 · Repositories
+
+- [Spring Boot Practice](https://github.com/Eunhye-yoo/springBoot_practice) — MVC·Thymeleaf·JPA 수업 및 개인 실습
+- [React Practice](https://github.com/Eunhye-yoo/react_practice) — JavaScript부터 React Hooks·Router까지의 학습 예제
+- [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) — Servlet·JSP·JDBC 요청 흐름 실습
+- [Study Log](https://github.com/Eunhye-yoo/study_log) — 네트워크 및 기초 개념 기록
+
+<br />
+
+## 05 · Certifications
 
 - **네트워크관리사 2급** — 취득
 - **정보처리기사** — 필기 합격
@@ -73,7 +82,7 @@ Java·Spring 기반 웹 프로젝트를 개발하며 **기획한 기능이 데�
 
 <br />
 
-## 05 · Study
+## 06 · Study
 
 **Infrastructure Lab** — Linux · Network · Server · Docker 학습 및 실습
 
@@ -81,6 +90,6 @@ Java·Spring 기반 웹 프로젝트를 개발하며 **기획한 기능이 데�
 
 <br />
 
-## 06 · Direction
+## 07 · Direction
 
 기술을 이해하면서 서비스 요구사항을 구조화하고, 실제 구현까지 연결할 수 있는 **Technical Product / IT 기획** 영역으로 역량을 확장하고 있습니다.
