@@ -1,0 +1,10 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="220" fill="#F8F9F8"/>
+  <rect x="70" y="40" width="34" height="5" rx="2.5" fill="#FF5D5D"/>
+  <text x="116" y="46" fill="#415A77" font-size="12" font-weight="700" font-family="Segoe UI, Arial, sans-serif" letter-spacing="1.8">TECH · BUSINESS · IMPLEMENTATION</text>
+  <text x="70" y="116" fill="#0D1B2A" font-size="50" font-weight="700" font-family="Segoe UI, Arial, sans-serif">EunHye (Eloise) Yoo</text>
+  <text x="70" y="158" fill="#415A77" font-size="20" font-family="Segoe UI, Arial, sans-serif">Implementation · Technical Consulting · Solution Engineering</text>
+  <rect x="70" y="190" width="1060" height="2" rx="1" fill="#E0E1DD"/>
+  <rect x="70" y="188" width="86" height="6" rx="3" fill="#1B263B"/>
+  <rect x="164" y="188" width="26" height="6" rx="3" fill="#FF5D5D"/>
+</svg>
