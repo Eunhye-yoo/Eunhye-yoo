@@ -1,20 +1,27 @@
 <p align="center">
+  <img src="./assets/profile-header.svg" alt="EunHye Yoo profile header" width="100%" />
+</p>
+
+<p align="center">
   <strong>I translate user and business problems into practical technical solutions, connecting requirements with systems, data, and implementation.</strong>
 </p>
 
 <p align="center">
-  Implementation Engineering · Technical Consulting · Solution Engineering · IT/Technical Planning
+  <img src="https://img.shields.io/badge/Implementation-6E4D57?style=flat-square&labelColor=2F2529" alt="Implementation" />
+  <img src="https://img.shields.io/badge/Technical%20Consulting-A86655?style=flat-square&labelColor=2F2529" alt="Technical Consulting" />
+  <img src="https://img.shields.io/badge/Solution%20Engineering-8A6A8F?style=flat-square&labelColor=2F2529" alt="Solution Engineering" />
+  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-C08B73?style=flat-square&labelColor=2F2529" alt="IT Technical Planning" />
 </p>
 
 <p align="center">
-  Java · Spring · API · Database · Linux · Network
+  <a href="./README.ko.md">한국어</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
+  &nbsp;·&nbsp;
+  <a href="https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link">Infrastructure Lab</a>
 </p>
 
-<p align="center">
-  <a href="./README.ko.md">한국어 README</a>
-</p>
-
-<br />
+---
 
 ## 01 · About
 
@@ -24,33 +31,36 @@ Before moving into IT, I worked in education operations, coordinating instructor
 
 I am now combining that business-side experience with technical implementation skills to grow toward roles where I can **analyze customer problems, configure or build solutions, and work with engineers to deliver working systems.**
 
-> **Current Focus** &nbsp; Implementation Engineering · Technical Consulting · Solution Engineering · IT/Technical Planning
+| Current Focus | What I bring |
+| --- | --- |
+| Implementation · Technical Consulting · Solution Engineering | Requirement structuring · Stakeholder coordination · Hands-on implementation |
+| IT / Technical Planning | Business context · Data flow thinking · Technical communication |
 
 <br />
 
 ## 02 · Tech Stack
 
 ### Hands-on Development
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-000000?style=flat-square)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-6E4D57?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-A86655?style=flat-square&logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring%20MVC-8A6A8F?style=flat-square&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-2F2529?style=flat-square)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-C08B73?style=flat-square&logo=springsecurity&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-6E4D57?style=flat-square&logo=mysql&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-A86655?style=flat-square&logo=thymeleaf&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-E8C8A7?style=flat-square&logo=javascript&logoColor=2F2529)
+![Chart.js](https://img.shields.io/badge/Chart.js-D9B4C0?style=flat-square&logo=chartdotjs&logoColor=2F2529)
 
 ### Currently Building
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Network & Server](https://img.shields.io/badge/%F0%9F%8C%90%20Network%20%26%20Server-475569?style=flat-square)
+![React](https://img.shields.io/badge/React-8A6A8F?style=flat-square&logo=react&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-E8C8A7?style=flat-square&logo=linux&logoColor=2F2529)
+![Docker](https://img.shields.io/badge/Docker-6E4D57?style=flat-square&logo=docker&logoColor=white)
+![Network & Server](https://img.shields.io/badge/Network%20%26%20Server-2F2529?style=flat-square)
 
 ### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-A86655?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-2F2529?style=flat-square&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-8A6A8F?style=flat-square&logo=intellijidea&logoColor=white)
 
 <br />
 
@@ -58,24 +68,27 @@ I am now combining that business-side experience with technical implementation s
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
-**An education platform that connects academy operations and test results to the next learning cycle**  
+> **An education platform that connects academy operations and test results to the next learning cycle**
+
 `Java` `Spring Boot` `MyBatis` `MySQL`
 
-- **Problem & requirement definition** — Proposed the original concept and helped translate academy operations and learning needs into core service flows and feature scope
+- **Problem & requirement definition** — Proposed the original concept and translated academy-operation and learning needs into core service flows and feature scope
 - **Class management implementation** — Implemented class creation and updates, student assignment, multi-instructor mapping, duplicate-assignment prevention, capacity validation, ownership checks, and soft delete
 - **3-Minute Dashboard** — Built class/student performance summaries, weak-area analysis, and risk signals to support pre-class decisions
 - **Student Performance Report** — Implemented score trends and strength/weakness analysis, with analytics logic structured for reuse in monthly reporting
 
-[View Project README](https://github.com/Eunhye-yoo/EduPOP) · [View Demo Video](https://youtu.be/mkAcPCD7VOY)
+[Project README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
 <br />
 
-## 04 · Practice & Study Repositories
+## 04 · Practice & Study
 
-- [Spring Boot Practice](https://github.com/Eunhye-yoo/springBoot_practice) — Spring MVC, Thymeleaf, Interceptor/AOP, JPA, and QueryDSL class/practice code
-- [React Practice](https://github.com/Eunhye-yoo/react_practice) — JavaScript, React components, Hooks, Router, state management, and small apps
-- [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) — Servlet, JSP, JDBC, session, and request-flow practice
-- [Study Log](https://github.com/Eunhye-yoo/study_log) — Network, routing, server, and foundational IT study notes
+| Repository | Focus |
+| --- | --- |
+| [Spring Boot Practice](https://github.com/Eunhye-yoo/springBoot_practice) | Spring MVC · Thymeleaf · Interceptor/AOP · JPA · QueryDSL |
+| [React Practice](https://github.com/Eunhye-yoo/react_practice) | JavaScript · Components · Hooks · Router · State |
+| [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) | Servlet · JSP · JDBC · Session · Request flow |
+| [Study Log](https://github.com/Eunhye-yoo/study_log) | Network · Routing · Server · IT fundamentals |
 
 <br />
 
@@ -97,8 +110,8 @@ Hands-on practice with **Linux · Network · Server · Docker**, documenting des
 
 ## 07 · Career Direction
 
-**Now:** Implementation · Technical Consulting · Solution Engineering  
-**Next:** Solution Architecture · Technical Product  
-**Long-term:** AI-enabled products and technical business leadership
+**Now** → Implementation · Technical Consulting · Solution Engineering  
+**Next** → Solution Architecture · Technical Product  
+**Long-term** → AI-enabled products · Technical Business Leadership
 
 I want to build my career at the intersection of **technology, customers, and business**, beginning with hands-on experience solving real customer and system problems.
