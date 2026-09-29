@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Implementation-6E4D57?style=flat-square&labelColor=2F2529" alt="Implementation" />
-  <img src="https://img.shields.io/badge/Technical%20Consulting-A86655?style=flat-square&labelColor=2F2529" alt="Technical Consulting" />
-  <img src="https://img.shields.io/badge/Solution%20Engineering-8A6A8F?style=flat-square&labelColor=2F2529" alt="Solution Engineering" />
-  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-C08B73?style=flat-square&labelColor=2F2529" alt="IT Technical Planning" />
+  <img src="https://img.shields.io/badge/Implementation-1A2B4C?style=flat-square" alt="Implementation" />
+  <img src="https://img.shields.io/badge/Technical%20Consulting-0066FF?style=flat-square" alt="Technical Consulting" />
+  <img src="https://img.shields.io/badge/Solution%20Engineering-1A2B4C?style=flat-square" alt="Solution Engineering" />
+  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-FF5722?style=flat-square" alt="IT Technical Planning" />
 </p>
 
 <p align="center">
@@ -36,7 +36,8 @@ I am now combining that business-side experience with technical implementation s
 | Implementation · Technical Consulting · Solution Engineering | Requirement structuring · Stakeholder coordination · Hands-on implementation |
 | IT / Technical Planning | Business context · Data flow thinking · Technical communication |
 
-<br />
+
+---
 
 ## 02 · Tech Stack
 
@@ -62,7 +63,8 @@ I am now combining that business-side experience with technical implementation s
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-<br />
+
+---
 
 ## 03 · Selected Project
 
@@ -79,7 +81,8 @@ I am now combining that business-side experience with technical implementation s
 
 [Project README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
-<br />
+
+---
 
 ## 04 · Practice & Study
 
@@ -90,7 +93,8 @@ I am now combining that business-side experience with technical implementation s
 | [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) | Servlet · JSP · JDBC · Session · Request flow |
 | [Study Log](https://github.com/Eunhye-yoo/study_log) | Network · Routing · Server · IT fundamentals |
 
-<br />
+
+---
 
 ## 05 · Certifications
 
@@ -98,7 +102,8 @@ I am now combining that business-side experience with technical implementation s
 - **Engineer Information Processing (Korea)** — Written exam passed
 - **Linux Master Level 2 (Korea)** — Written exam passed
 
-<br />
+
+---
 
 ## 06 · Infrastructure Lab
 
@@ -106,7 +111,8 @@ Hands-on practice with **Linux · Network · Server · Docker**, documenting des
 
 [View Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
-<br />
+
+---
 
 ## 07 · Career Direction
 
