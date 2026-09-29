@@ -68,7 +68,6 @@ I am now combining that business-side experience with technical implementation s
 
 ## 03 · Selected Project
 
-<img src="https://img.shields.io/badge/FEATURED-FF5D5D?style=flat-square&labelColor=0D1B2A" alt="Featured Project" />
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
@@ -118,8 +117,8 @@ Hands-on practice with **Linux · Network · Server · Docker**, documenting des
 
 ## 07 · Career Direction
 
-<img src="https://img.shields.io/badge/NOW-0D1B2A?style=flat-square" alt="Now" /> Implementation · Technical Consulting · Solution Engineering  
-<img src="https://img.shields.io/badge/NEXT-415A77?style=flat-square" alt="Next" /> Solution Architecture · Technical Product  
-<img src="https://img.shields.io/badge/LONG--TERM-FF5D5D?style=flat-square" alt="Long term" /> AI-enabled products · Technical Business Leadership
+**Now** → Implementation · Technical Consulting · Solution Engineering  
+**Next** → Solution Architecture · Technical Product  
+**Long-term** → AI-enabled products · Technical Business Leadership
 
 I want to build my career at the intersection of **technology, customers, and business**, beginning with hands-on experience solving real customer and system problems.
