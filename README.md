@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Implementation-1A2B4C?style=flat-square" alt="Implementation" />
-  <img src="https://img.shields.io/badge/Technical%20Consulting-0066FF?style=flat-square" alt="Technical Consulting" />
-  <img src="https://img.shields.io/badge/Solution%20Engineering-1A2B4C?style=flat-square" alt="Solution Engineering" />
-  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-FF5722?style=flat-square" alt="IT Technical Planning" />
+  <img src="https://img.shields.io/badge/Implementation-17324A?style=flat-square" alt="Implementation" />
+  <img src="https://img.shields.io/badge/Technical%20Consulting-2B556E?style=flat-square" alt="Technical Consulting" />
+  <img src="https://img.shields.io/badge/Solution%20Engineering-0A1A2A?style=flat-square" alt="Solution Engineering" />
+  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-B08D57?style=flat-square&labelColor=0A1A2A" alt="IT Technical Planning" />
 </p>
 
 <p align="center">
