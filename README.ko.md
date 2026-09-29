@@ -68,7 +68,6 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 ## 03 · Selected Project
 
-<img src="https://img.shields.io/badge/FEATURED-FF5D5D?style=flat-square&labelColor=0D1B2A" alt="Featured Project" />
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
@@ -118,8 +117,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 ## 07 · Career Direction
 
-<img src="https://img.shields.io/badge/NOW-0D1B2A?style=flat-square" alt="현재" /> Implementation · Technical Consulting · Solution Engineering  
-<img src="https://img.shields.io/badge/NEXT-415A77?style=flat-square" alt="다음 단계" /> Solution Architecture · Technical Product  
-<img src="https://img.shields.io/badge/LONG--TERM-FF5D5D?style=flat-square" alt="장기 방향" /> AI 기반 제품 · Technical Business Leadership
+**현재** → Implementation · Technical Consulting · Solution Engineering  
+**다음 단계** → Solution Architecture · Technical Product  
+**장기 방향** → AI 기반 제품 · Technical Business Leadership
 
 기술과 고객, 비즈니스의 접점에서 성장하고자 하며, 먼저 **실제 고객·시스템 문제를 해결하는 실무 경험**을 탄탄히 쌓는 데 집중하고 있습니다.
