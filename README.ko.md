@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Implementation-6E4D57?style=flat-square&labelColor=2F2529" alt="Implementation" />
-  <img src="https://img.shields.io/badge/Technical%20Consulting-A86655?style=flat-square&labelColor=2F2529" alt="Technical Consulting" />
-  <img src="https://img.shields.io/badge/Solution%20Engineering-8A6A8F?style=flat-square&labelColor=2F2529" alt="Solution Engineering" />
-  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-C08B73?style=flat-square&labelColor=2F2529" alt="IT Technical Planning" />
+  <img src="https://img.shields.io/badge/Implementation-1A2B4C?style=flat-square" alt="Implementation" />
+  <img src="https://img.shields.io/badge/Technical%20Consulting-0066FF?style=flat-square" alt="Technical Consulting" />
+  <img src="https://img.shields.io/badge/Solution%20Engineering-1A2B4C?style=flat-square" alt="Solution Engineering" />
+  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-FF5722?style=flat-square" alt="IT Technical Planning" />
 </p>
 
 <p align="center">
@@ -36,7 +36,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 | Implementation · Technical Consulting · Solution Engineering | 요구사항 구조화 · 이해관계자 조율 · 직접 구현 |
 | IT / Technical Planning | 비즈니스 맥락 이해 · 데이터 흐름 사고 · 기술 커뮤니케이션 |
 
-<br />
+
+---
 
 ## 02 · Tech Stack
 
@@ -62,7 +63,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-<br />
+
+---
 
 ## 03 · Selected Project
 
@@ -79,7 +81,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 [프로젝트 README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
-<br />
+
+---
 
 ## 04 · Practice & Study
 
@@ -90,7 +93,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 | [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) | Servlet · JSP · JDBC · Session · 요청 흐름 |
 | [Study Log](https://github.com/Eunhye-yoo/study_log) | Network · Routing · Server · IT 기초 |
 
-<br />
+
+---
 
 ## 05 · Certifications
 
@@ -98,7 +102,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 - **정보처리기사** — 필기 합격
 - **리눅스마스터 2급** — 필기 합격
 
-<br />
+
+---
 
 ## 06 · Infrastructure Lab
 
@@ -106,7 +111,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
-<br />
+
+---
 
 ## 07 · Career Direction
 
