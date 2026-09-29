@@ -41,26 +41,26 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 ## 02 · Tech Stack
 
 ### 실제 프로젝트·실습에서 사용
-![Java](https://img.shields.io/badge/Java-17-6E4D57?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-A86655?style=flat-square&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring%20MVC-8A6A8F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-2F2529?style=flat-square)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-C08B73?style=flat-square&logo=springsecurity&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-6E4D57?style=flat-square&logo=mysql&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-A86655?style=flat-square&logo=thymeleaf&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-E8C8A7?style=flat-square&logo=javascript&logoColor=2F2529)
-![Chart.js](https://img.shields.io/badge/Chart.js-D9B4C0?style=flat-square&logo=chartdotjs&logoColor=2F2529)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-000000?style=flat-square)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 
 ### 현재 학습·실습 중
-![React](https://img.shields.io/badge/React-8A6A8F?style=flat-square&logo=react&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-E8C8A7?style=flat-square&logo=linux&logoColor=2F2529)
-![Docker](https://img.shields.io/badge/Docker-6E4D57?style=flat-square&logo=docker&logoColor=white)
-![Network & Server](https://img.shields.io/badge/Network%20%26%20Server-2F2529?style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Network & Server](https://img.shields.io/badge/Network%20%26%20Server-475569?style=flat-square)
 
 ### Tools
-![Git](https://img.shields.io/badge/Git-A86655?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-2F2529?style=flat-square&logo=github&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-8A6A8F?style=flat-square&logo=intellijidea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
 <br />
 
