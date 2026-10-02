@@ -18,6 +18,8 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/Eunhye-yoo/fullstack-integration-lab">Full-Stack Lab</a>
+  &nbsp;·&nbsp;
   <a href="https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link">Infrastructure Lab</a>
 </p>
 
@@ -35,7 +37,6 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 | --- | --- |
 | Implementation · Technical Consulting · Solution Engineering | 요구사항 구조화 · 이해관계자 조율 · 직접 구현 |
 | IT / Technical Planning | 비즈니스 맥락 이해 · 데이터 흐름 사고 · 기술 커뮤니케이션 |
-
 
 ---
 
@@ -63,11 +64,9 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-
 ---
 
-## 03 · Selected Project
-
+## 03 · Selected Work
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
@@ -82,6 +81,17 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 [프로젝트 README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
+### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+
+> **Frontend · Backend · Database · Linux Server · Network 경로를 연결하는 통합 실습**
+
+`React` `Spring Boot` `MyBatis` `MySQL` `Linux` `Routing/NAT`
+
+- **Application Integration** — React → Vite Proxy → Spring Boot → MyBatis → MySQL CRUD 흐름 검증 및 환경별 Datasource/API 설정 수정
+- **Linux 3-Tier** — React · Spring Boot · MySQL을 Ubuntu VM으로 분리하고 Static IP 및 Remote DB Access 구성
+- **Network Extension** — Linux NAT Router, IPv4 Forwarding, MASQUERADE, SSH/SCP, DNAT Port Forwarding 구성 후 Windows → Router → React → Spring Boot → MySQL 전체 경로 검증
+
+[GitHub Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [상세 Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
 ---
 
@@ -94,7 +104,6 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 | [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) | Servlet · JSP · JDBC · Session · 요청 흐름 |
 | [Study Log](https://github.com/Eunhye-yoo/study_log) | Network · Routing · Server · IT 기초 |
 
-
 ---
 
 ## 05 · Certifications
@@ -103,15 +112,13 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 - **정보처리기사** — 필기 합격
 - **리눅스마스터 2급** — 필기 합격
 
-
 ---
 
 ## 06 · Infrastructure Lab
 
-**Linux · Network · Server · Docker** 환경을 직접 구성하고, 설계–구축–검증 과정을 문서화하고 있습니다.
+**Linux · Network · Server · Docker** 환경의 설계·구축·검증·문제 해결 과정을 문서화하고 있습니다.
 
-[Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
-
+[GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
 ---
 
