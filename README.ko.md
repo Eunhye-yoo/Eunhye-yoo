@@ -120,7 +120,7 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 ## 06 · Infrastructure Lab
 
-**Linux · Network · Server · Docker** 환경의 설계·구축·검증·문제 해결 과정을 문서화하고 있습니다.
+**Linux · Network · Server** 환경의 설계·구축·검증·문제 해결 과정을 문서화하고 있습니다. Docker는 현재 학습 중인 기술입니다.
 
 [GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
