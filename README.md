@@ -46,12 +46,14 @@ I am now combining that business-side experience with technical implementation s
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-000000?style=flat-square)
+![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+
+Version badges refer to EduPOP. Integration labs and practice projects use their own Java, Spring Boot, and MyBatis starter versions.
 
 ### Currently Building
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -90,6 +92,8 @@ I am now combining that business-side experience with technical implementation s
 - **Application integration** — Verified React → Vite Proxy → Spring Boot → MyBatis → MySQL CRUD flow and corrected environment-specific datasource/API configuration
 - **Linux 3-Tier environment** — Separated React, Spring Boot, and MySQL across Ubuntu VMs with static IPs and remote database access
 - **Network extension** — Added a Linux NAT Router, IPv4 forwarding, MASQUERADE, SSH/SCP, and DNAT port forwarding, then verified the full Windows → Router → React → Spring Boot → MySQL path
+
+- **Express API** — Added Express source and verified query, path, and JSON body handling with GET/POST/PUT/DELETE responses. PUT/DELETE are learning examples without database persistence.
 
 [Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Detailed Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
