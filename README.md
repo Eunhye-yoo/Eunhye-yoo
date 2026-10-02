@@ -120,7 +120,7 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 
 ## 06 · Infrastructure Lab
 
-Hands-on documentation of **Linux · Network · Server · Docker** environments, with emphasis on design decisions, build steps, verification, and troubleshooting.
+Hands-on documentation of **Linux · Network · Server** environments, with emphasis on design decisions, build steps, verification, and troubleshooting. Docker remains a current learning focus.
 
 [GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
