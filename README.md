@@ -18,6 +18,8 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/Eunhye-yoo/fullstack-integration-lab">Full-Stack Lab</a>
+  &nbsp;·&nbsp;
   <a href="https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link">Infrastructure Lab</a>
 </p>
 
@@ -35,7 +37,6 @@ I am now combining that business-side experience with technical implementation s
 | --- | --- |
 | Implementation · Technical Consulting · Solution Engineering | Requirement structuring · Stakeholder coordination · Hands-on implementation |
 | IT / Technical Planning | Business context · Data flow thinking · Technical communication |
-
 
 ---
 
@@ -63,11 +64,9 @@ I am now combining that business-side experience with technical implementation s
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-
 ---
 
-## 03 · Selected Project
-
+## 03 · Selected Work
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
@@ -82,6 +81,17 @@ I am now combining that business-side experience with technical implementation s
 
 [Project README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
+### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+
+> **Hands-on integration labs connecting frontend, backend, database, Linux servers, and network paths**
+
+`React` `Spring Boot` `MyBatis` `MySQL` `Linux` `Routing/NAT`
+
+- **Application integration** — Verified React → Vite Proxy → Spring Boot → MyBatis → MySQL CRUD flow and corrected environment-specific datasource/API configuration
+- **Linux 3-Tier environment** — Separated React, Spring Boot, and MySQL across Ubuntu VMs with static IPs and remote database access
+- **Network extension** — Added a Linux NAT Router, IPv4 forwarding, MASQUERADE, SSH/SCP, and DNAT port forwarding, then verified the full Windows → Router → React → Spring Boot → MySQL path
+
+[Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Detailed Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
 ---
 
@@ -94,7 +104,6 @@ I am now combining that business-side experience with technical implementation s
 | [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) | Servlet · JSP · JDBC · Session · Request flow |
 | [Study Log](https://github.com/Eunhye-yoo/study_log) | Network · Routing · Server · IT fundamentals |
 
-
 ---
 
 ## 05 · Certifications
@@ -103,15 +112,13 @@ I am now combining that business-side experience with technical implementation s
 - **Engineer Information Processing (Korea)** — Written exam passed
 - **Linux Master Level 2 (Korea)** — Written exam passed
 
-
 ---
 
 ## 06 · Infrastructure Lab
 
-Hands-on practice with **Linux · Network · Server · Docker**, documenting design, build, and verification steps.
+Hands-on documentation of **Linux · Network · Server · Docker** environments, with emphasis on design decisions, build steps, verification, and troubleshooting.
 
-[View Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
-
+[GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
 ---
 
