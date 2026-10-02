@@ -46,12 +46,14 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-000000?style=flat-square)
+![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+
+버전 배지는 EduPOP 기준. 통합 Lab과 학습 예제의 Java·Spring Boot·MyBatis Starter 버전은 각 저장소 설정을 기준으로 확인합니다.
 
 ### 현재 학습·실습 중
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -90,6 +92,8 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 - **Application Integration** — React → Vite Proxy → Spring Boot → MyBatis → MySQL CRUD 흐름 검증 및 환경별 Datasource/API 설정 수정
 - **Linux 3-Tier** — React · Spring Boot · MySQL을 Ubuntu VM으로 분리하고 Static IP 및 Remote DB Access 구성
 - **Network Extension** — Linux NAT Router, IPv4 Forwarding, MASQUERADE, SSH/SCP, DNAT Port Forwarding 구성 후 Windows → Router → React → Spring Boot → MySQL 전체 경로 검증
+
+- **Express API** — 업로드한 Express 소스에서 Query·Path·JSON Body 처리와 GET/POST/PUT/DELETE 응답 흐름 확인. PUT/DELETE는 DB 미연동 학습용 응답.
 
 [GitHub Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [상세 Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
