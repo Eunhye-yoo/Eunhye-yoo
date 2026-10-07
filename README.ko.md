@@ -77,11 +77,13 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 `Java` `Spring Boot` `MyBatis` `MySQL`
 
 - **문제·요구사항 정의** — 초기 아이디어를 제안하고 학원 운영 및 학습상의 요구를 서비스 흐름과 핵심 기능으로 구체화
-- **반 운영 기능 구현** — 반 생성·수정, 수강생 배정, 다중 강사 매핑, 중복 배정 방지, 정원 검증, 소유권 확인, Soft Delete 구현
-- **3분 대시보드** — 반·학생별 성취도와 취약 영역을 분석하고 수업 전 확인할 위험 신호를 제공
-- **개인 성적표** — 성적 추이와 강점·취약 영역을 시각화하고, 월간 리포트에서도 재사용할 수 있도록 분석 로직 구성
+- **반 운영 기능 구현** — 반 생성·수정, 수강생·다중 강사 배정, 중복·정원 검증, 반 상태를 통한 종강 처리
+- **수업 전 대시보드** — 반·학생별 성취도와 취약 영역 신호를 제공해 ‘수업 전 3분 확인’이라는 사용 목표를 지원
+- **개인 성적표** — 성적 추이와 강점·취약 영역을 시각화하고, 분석 로직을 월간 성적표 코드에서 재사용
 
-[프로젝트 README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
+> **구현 범위:** ‘3분’은 측정 결과가 아닌 사용 목표입니다. 배정·접근 검증은 경로마다 차이가 있고, 학부모용 성적표 공유 링크는 미완성입니다.
+
+[프로젝트 README](https://github.com/Eunhye-yoo/EduPOP) · [서비스 기획·구현 포트폴리오 (PDF · 17쪽)](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
 ### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
