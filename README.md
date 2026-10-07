@@ -77,11 +77,13 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 `Java` `Spring Boot` `MyBatis` `MySQL`
 
 - **Problem & requirement definition** — Proposed the original concept and translated academy-operation and learning needs into core service flows and feature scope
-- **Class management implementation** — Implemented class creation and updates, student assignment, multi-instructor mapping, duplicate-assignment prevention, capacity validation, ownership checks, and soft delete
-- **3-Minute Dashboard** — Built class/student performance summaries, weak-area analysis, and risk signals to support pre-class decisions
-- **Student Performance Report** — Implemented score trends and strength/weakness analysis, with analytics logic structured for reuse in monthly reporting
+- **Class management implementation** — Implemented class creation and updates, student/multi-instructor assignment, duplicate and capacity checks, and status-based class closure
+- **Pre-Class Dashboard** — Built class/student performance summaries and weak-area signals to support a three-minute pre-class review goal
+- **Student Performance Report** — Implemented score trends and strength/weakness analysis, with analytics logic reused in monthly reporting code
 
-[Project README](https://github.com/Eunhye-yoo/EduPOP) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
+> **Scope note:** Three minutes is a design goal, not a measured result. Assignment/access checks differ by path, and the parent-facing report share link is unfinished.
+
+[Project README](https://github.com/Eunhye-yoo/EduPOP) · [Planning & Implementation Portfolio (PDF · Korean)](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
 
 ### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
