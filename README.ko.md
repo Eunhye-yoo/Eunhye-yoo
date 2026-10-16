@@ -57,7 +57,11 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 ![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
 ![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
 
-**구성 실습:** [Linux 3-Tier (React / Spring Boot / MySQL)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · AWS EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+**인프라 구축 기록:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM 구성, Network/Routing/NAT, 명령어, 검증 및 Troubleshooting
+
+**애플리케이션 검증:** [3-Tier 연동 및 CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
+
+**별도 AWS 실습:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
 
 **현재 학습 중:** Docker · LLM/생성형 AI 활용
 
@@ -97,7 +101,7 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 - **Express API** — 업로드한 Express 소스에서 Query·Path·JSON Body 처리와 GET/POST/PUT/DELETE 응답 흐름 확인. PUT/DELETE는 DB 미연동 학습용 응답.
 
-[GitHub Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [상세 Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+[GitHub Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [3-Tier 구축 상세 기록 (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [Infrastructure Lab 목록](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
 ---
 
@@ -122,6 +126,6 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 ## 06 · Infrastructure Lab
 
-**Linux 3-Tier · Network · Server** 환경의 구성·연동·검증·문제 해결 과정을 기록하고 있습니다. 별도로 **AWS EC2, VPC, ALB 및 Bastion Host**를 활용한 실습 경험이 있으며, 현재 **LLM/생성형 AI와 Docker**를 학습하고 있습니다.
+**Linux 3-Tier · Network · Server** 환경의 설계·명령어·검증·문제 해결 과정은 Notion에, 애플리케이션 연동·CRUD 검증 자료는 GitHub에 나누어 정리했습니다. 별도로 **AWS EC2, VPC, ALB 및 Bastion Host** 실습 경험이 있으며, 현재 **LLM/생성형 AI와 Docker**를 학습하고 있습니다.
 
-[GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+[Notion 3-Tier 상세 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [GitHub 3-Tier 연동 검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Infrastructure Lab 전체 목록](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
