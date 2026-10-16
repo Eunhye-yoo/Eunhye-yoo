@@ -50,13 +50,16 @@ Before moving into IT, I coordinated instructors, students, schedules, and custo
 
 Version badges refer to EduPOP. Integration labs and practice projects use their own Java, Spring Boot, and MyBatis starter versions.
 
-### Systems & Network
+### Infrastructure & Network
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
 ![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
 ![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
 
-**Currently studying:** Docker
+**Configuration labs:** [Linux 3-Tier (React / Spring Boot / MySQL)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · AWS EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+
+**Currently studying:** Docker · LLM / Generative AI applications
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -119,6 +122,6 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 
 ## 06 · Infrastructure Lab
 
-Hands-on documentation of **Linux · Network · Server** environments, with emphasis on design decisions, build steps, verification, and troubleshooting. Docker remains a current learning focus.
+Documentation covers **Linux 3-Tier · Network · Server** configuration, integration, verification, and troubleshooting. Separate hands-on AWS practice includes **EC2, VPC, ALB, and Bastion Host**. I am currently studying **LLM / Generative AI and Docker**.
 
 [GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
