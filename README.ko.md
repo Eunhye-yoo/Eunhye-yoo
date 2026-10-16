@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <strong>요구사항을 정리하고, 기능과 시스템 환경을 직접 구성하며 동작을 검증합니다.</strong>
+  <strong>요구사항부터 애플리케이션과 인프라까지, 직접 구현·구성하고 검증한 내용을 기록합니다.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/IT%20Planning-FF5D5D?style=flat-square" alt="IT Planning" />
-  <img src="https://img.shields.io/badge/Infrastructure-0D1B2A?style=flat-square" alt="Infrastructure" />
-  <img src="https://img.shields.io/badge/Network-1B263B?style=flat-square" alt="Network" />
-  <img src="https://img.shields.io/badge/Information%20Security%20%28Learning%29-415A77?style=flat-square" alt="Information Security (Learning)" />
+  <img src="https://img.shields.io/badge/Requirements-FF5D5D?style=flat-square" alt="Requirements" />
+  <img src="https://img.shields.io/badge/Applications-0D1B2A?style=flat-square" alt="Applications" />
+  <img src="https://img.shields.io/badge/Infrastructure-1B263B?style=flat-square" alt="Infrastructure" />
+  <img src="https://img.shields.io/badge/Verification-415A77?style=flat-square" alt="Verification" />
 </p>
 
 <p align="center">
@@ -27,18 +27,9 @@
 
 ## 01 · About
 
-서비스의 요구사항을 정리하는 일부터 **애플리케이션 기능 구현, 서버·네트워크 환경 구성, 동작 검증**까지 폭넓게 실습하고 있습니다. Java/Spring Boot와 MySQL로 기능과 데이터 흐름을 구현했고, Linux 가상머신 환경에서 라우팅·NAT와 서버 간 통신을 확인했습니다.
+**요구사항, 애플리케이션, 데이터, 서버·네트워크 환경**이 하나의 시스템으로 연결되는 과정을 실습하고 있습니다. EduPOP에서는 서비스 요구사항을 구체화하고 반 관리·분석 기능을 구현했으며, Full-Stack Integration Lab에서는 React–API–MySQL 연동과 Linux VM 간 Routing/NAT 통신을 검증했습니다.
 
-IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·고객 요구를 조율했습니다. EduPOP 팀 프로젝트에서는 이러한 운영 경험을 바탕으로 문제와 기능 요구사항을 구체화하고, 담당 기능을 직접 구현했습니다.
-
-관심 분야는 **IT 기획, 인프라·네트워크, 정보보안**입니다. 시스템이 어떤 구조로 동작하고 접근과 통신이 어떻게 이루어지는지 이해하는 데 집중하고 있으며, 정보보안은 시스템·네트워크 기초를 바탕으로 학습 범위를 넓혀가고 있습니다.
-
-| 분야 | 확인 가능한 경험·실습 |
-| --- | --- |
-| IT 기획·요구사항 분석 | 교육 운영 경험 · EduPOP 문제 정의, 기능 범위와 사용자 흐름 설계 |
-| 인프라·네트워크 | Ubuntu VM · Static IP · Routing/NAT · SSH/SCP · 연결 검증 |
-| 정보보안 기초 | Spring Security 역할별 접근 제어 설정 · iptables NAT 및 네트워크 경로 실습 |
-| 애플리케이션·데이터 | Spring Boot · MyBatis/MySQL · REST API · React 연동 |
+IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·고객 요구를 조율했습니다. 이러한 경험을 요구사항 분석과 프로젝트 협업에 활용하며, 직접 구현·구성하고 검증한 내용을 중심으로 기록합니다.
 
 ---
 
@@ -127,13 +118,3 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 **Linux · Network · Server** 환경의 설계·구축·검증·문제 해결 과정을 문서화하고 있습니다. Docker는 현재 학습 중인 기술입니다.
 
 [GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
-
----
-
-## 07 · Career Direction
-
-**관심 분야** → IT 서비스기획 · 인프라·네트워크 · 정보보안  
-**기술 기반** → 요구사항 분석 · Java/Spring 애플리케이션 · 데이터베이스 · Linux · Routing/NAT  
-**장기 방향** → Technical Product · 기술과 비즈니스를 연결하는 역할
-
-서비스의 요구사항부터 애플리케이션과 인프라 환경까지 이해의 폭을 넓히며, **직접 구현·검증한 내용**을 중심으로 기록하고 있습니다.
