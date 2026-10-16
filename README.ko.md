@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <strong>사용자와 비즈니스의 문제를 요구사항으로 구조화하고, 기술·데이터·시스템 구현으로 연결합니다.</strong>
+  <strong>교육 현장의 운영 문제를 Java/Spring 기반 기능과 데이터 흐름으로 구체화하고, 시스템 연동까지 검증합니다.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Implementation-0D1B2A?style=flat-square" alt="Implementation" />
-  <img src="https://img.shields.io/badge/Technical%20Consulting-415A77?style=flat-square" alt="Technical Consulting" />
-  <img src="https://img.shields.io/badge/Solution%20Engineering-1B263B?style=flat-square" alt="Solution Engineering" />
-  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-FF5D5D?style=flat-square" alt="IT Technical Planning" />
+  <img src="https://img.shields.io/badge/EdTech%20Service%20Development-FF5D5D?style=flat-square" alt="EdTech Service Development" />
+  <img src="https://img.shields.io/badge/Java%20%2F%20Spring%20Backend-0D1B2A?style=flat-square" alt="Java Spring Backend" />
+  <img src="https://img.shields.io/badge/Solution%20Implementation-1B263B?style=flat-square" alt="Solution Implementation" />
+  <img src="https://img.shields.io/badge/IT%20%2F%20Service%20Planning-415A77?style=flat-square" alt="IT Service Planning" />
 </p>
 
 <p align="center">
@@ -27,16 +27,17 @@
 
 ## 01 · About
 
-**Java/Spring 애플리케이션, 데이터베이스, API, Linux, 네트워크·서버 환경**을 학습하고 직접 구현하며, 비즈니스 요구가 실제 동작하는 시스템으로 이어지는 과정을 익히고 있습니다.
+**Java/Spring Boot 애플리케이션 기능, MySQL 데이터 흐름, REST API, React–Backend 연동**을 구현·검증하고 있습니다. Linux·네트워크 실습에서는 서버를 분리한 환경의 연결 구조와 검증 과정을 기록합니다.
 
-IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 요구를 조율했습니다. 이 과정에서 운영상의 문제를 파악하고, 필요한 요구사항을 정리하며, 여러 이해관계자와 협업하는 경험을 쌓았습니다.
+IT 전환 전에는 교육 현장에서 강사·학생·일정·고객 요구를 조율했습니다. 학원 운영 흐름의 불편을 이해하고 요구사항을 구조화하며, 이해관계자와 소통해 온 경험을 기술 구현과 연결하고 있습니다.
 
-현재는 이러한 비즈니스 측 경험에 기술 구현 역량을 더해, **고객 문제를 분석하고 적절한 솔루션을 구성·구현하며 개발자와 협업해 실제 시스템으로 전달하는 역할**을 목표로 하고 있습니다.
+현재 **에듀테크 서비스 개발 및 주니어 Java/Spring 백엔드**를 최우선으로 지원합니다. **솔루션 구축·기술지원/기술컨설팅, IT 서비스기획**도 교육 현장 이해와 직접 구현·검증 경험을 활용할 수 있는 직무로 함께 고려합니다.
 
-| 현재 집중 분야 | 강점 |
+| 현재 집중 분야 | 확인 가능한 경험·실습 |
 | --- | --- |
-| Implementation · Technical Consulting · Solution Engineering | 요구사항 구조화 · 이해관계자 조율 · 직접 구현 |
-| IT / Technical Planning | 비즈니스 맥락 이해 · 데이터 흐름 사고 · 기술 커뮤니케이션 |
+| 에듀테크 서비스 · Java/Spring Backend | EduPOP 반 관리, MyBatis/MySQL 데이터 흐름, 대시보드·성적표 기능 구현 |
+| Solution Implementation · Technical Support | React–API–DB 연동, Linux·Network 경로 검증, 계층별 문제 추적 |
+| IT 서비스기획 · Technical PM | 교육 운영 경험, 요구사항 구조화, 이해관계자 조율 |
 
 ---
 
@@ -130,8 +131,9 @@ IT 전환 전에는 교육 운영 현장에서 강사·학생·일정·고객 �
 
 ## 07 · Career Direction
 
-**현재** → Implementation · Technical Consulting · Solution Engineering  
-**다음 단계** → Solution Architecture · Technical Product  
-**장기 방향** → AI 기반 제품 · Technical Business Leadership
+**1순위** → 에듀테크 서비스 개발 · Java/Spring Backend  
+**2순위** → Solution Implementation · 기술지원/기술컨설팅  
+**병행** → IT 서비스기획 · Technical PM  
+**장기 방향** → Technical Product · AI 기반 제품 · Technical Business Leadership
 
-기술과 고객, 비즈니스의 접점에서 성장하고자 하며, 먼저 **실제 고객·시스템 문제를 해결하는 실무 경험**을 탄탄히 쌓는 데 집중하고 있습니다.
+교육 현장의 문제를 이해하는 강점을 바탕으로 **요구사항 정의 → 기능 구현 → 시스템 연동·검증** 경험을 쌓고 있습니다. 실습과 팀 프로젝트에서 확인된 구현 범위만을 포트폴리오에 기록합니다.
