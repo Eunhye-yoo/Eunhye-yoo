@@ -35,7 +35,7 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 ## 02 · Tech Stack
 
-### 실제 프로젝트·실습에서 사용
+### Application & Data
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
@@ -46,13 +46,17 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
 버전 배지는 EduPOP 기준. 통합 Lab과 학습 예제의 Java·Spring Boot·MyBatis Starter 버전은 각 저장소 설정을 기준으로 확인합니다.
 
-### 현재 학습·실습 중
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+### Systems & Network
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Network & Server](https://img.shields.io/badge/Network%20%26%20Server-475569?style=flat-square)
+![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
+![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
+![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
+
+**현재 학습 중:** Docker
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
