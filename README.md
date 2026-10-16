@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <strong>I translate user and business problems into practical technical solutions, connecting requirements with systems, data, and implementation.</strong>
+  <strong>I connect education-workflow problems with Java/Spring development, data flows, and verifiable system integration.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Implementation-0D1B2A?style=flat-square" alt="Implementation" />
-  <img src="https://img.shields.io/badge/Technical%20Consulting-415A77?style=flat-square" alt="Technical Consulting" />
-  <img src="https://img.shields.io/badge/Solution%20Engineering-1B263B?style=flat-square" alt="Solution Engineering" />
-  <img src="https://img.shields.io/badge/IT%20%2F%20Technical%20Planning-FF5D5D?style=flat-square" alt="IT Technical Planning" />
+  <img src="https://img.shields.io/badge/EdTech%20Service%20Development-FF5D5D?style=flat-square" alt="EdTech Service Development" />
+  <img src="https://img.shields.io/badge/Java%20%2F%20Spring%20Backend-0D1B2A?style=flat-square" alt="Java Spring Backend" />
+  <img src="https://img.shields.io/badge/Solution%20Implementation-1B263B?style=flat-square" alt="Solution Implementation" />
+  <img src="https://img.shields.io/badge/IT%20%2F%20Service%20Planning-415A77?style=flat-square" alt="IT Service Planning" />
 </p>
 
 <p align="center">
@@ -27,16 +27,17 @@
 
 ## 01 · About
 
-I am building hands-on experience across **Java/Spring applications, databases, APIs, Linux, and network/server environments**, with a focus on understanding how business requirements become working systems.
+I am building and verifying **Java/Spring Boot application features, MySQL data flows, REST APIs, and React-to-backend integration**. My Linux and network labs document how application components connect across servers.
 
-Before moving into IT, I worked in education operations, coordinating instructors, schedules, students, and customer needs. That experience trained me to identify operational problems, clarify requirements, and coordinate multiple stakeholders.
+Before moving into IT, I worked in education operations, coordinating instructors, schedules, students, and customer needs. This experience helps me identify friction in academy workflows, structure requirements, and communicate with stakeholders.
 
-I am now combining that business-side experience with technical implementation skills to grow toward roles where I can **analyze customer problems, configure or build solutions, and work with engineers to deliver working systems.**
+My current priority is **junior EdTech service development and Java/Spring backend roles**. I am also pursuing **solution implementation, technical support/consulting, and IT service planning** roles where education-domain knowledge and hands-on technical skills can work together.
 
-| Current Focus | What I bring |
+| Current Focus | Relevant evidence |
 | --- | --- |
-| Implementation · Technical Consulting · Solution Engineering | Requirement structuring · Stakeholder coordination · Hands-on implementation |
-| IT / Technical Planning | Business context · Data flow thinking · Technical communication |
+| EdTech Service · Java/Spring Backend | EduPOP: class management, MyBatis/MySQL data flows, dashboard and report features |
+| Solution Implementation · Technical Support | React–API–DB integration, Linux/network verification, layer-by-layer troubleshooting |
+| IT Service Planning · Technical PM | Education operations context, requirement structuring, stakeholder coordination |
 
 ---
 
@@ -130,8 +131,9 @@ Hands-on documentation of **Linux · Network · Server** environments, with emph
 
 ## 07 · Career Direction
 
-**Now** → Implementation · Technical Consulting · Solution Engineering  
-**Next** → Solution Architecture · Technical Product  
-**Long-term** → AI-enabled products · Technical Business Leadership
+**Priority 1** → EdTech Service Development · Java/Spring Backend  
+**Priority 2** → Solution Implementation · Technical Support/Consulting  
+**In parallel** → IT Service Planning · Technical PM  
+**Long-term** → Technical Product · AI-enabled Products · Technical Business Leadership
 
-I want to build my career at the intersection of **technology, customers, and business**, beginning with hands-on experience solving real customer and system problems.
+My immediate goal is to contribute to working services through **requirements, code, integration, and verification**—building on firsthand education-operations experience without overstating my engineering experience.
