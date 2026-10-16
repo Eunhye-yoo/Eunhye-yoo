@@ -57,7 +57,11 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 ![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
 ![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
 
-**Configuration labs:** [Linux 3-Tier (React / Spring Boot / MySQL)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · AWS EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+**Infrastructure build notes:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM setup, networking/routing/NAT, commands, verification, and troubleshooting
+
+**Application verification:** [3-Tier integration and CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
+
+**Separate AWS practice:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
 
 **Currently studying:** Docker · LLM / Generative AI applications
 
@@ -97,7 +101,7 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 
 - **Express API** — Added Express source and verified query, path, and JSON body handling with GET/POST/PUT/DELETE responses. PUT/DELETE are learning examples without database persistence.
 
-[Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Detailed Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+[Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [3-Tier Infrastructure Build Notes (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [Infrastructure Lab Index](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
 
 ---
 
@@ -122,6 +126,6 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 
 ## 06 · Infrastructure Lab
 
-Documentation covers **Linux 3-Tier · Network · Server** configuration, integration, verification, and troubleshooting. Separate hands-on AWS practice includes **EC2, VPC, ALB, and Bastion Host**. I am currently studying **LLM / Generative AI and Docker**.
+**Linux 3-Tier · Network · Server** design, configuration commands, verification, and troubleshooting are documented in Notion; application integration and CRUD verification evidence are linked on GitHub. Separate AWS practice includes **EC2, VPC, ALB, and Bastion Host**. I am currently studying **LLM / Generative AI and Docker**.
 
-[GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+[Notion 3-Tier Build Notes](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [GitHub 3-Tier Integration Evidence](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Infrastructure Lab Index](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
