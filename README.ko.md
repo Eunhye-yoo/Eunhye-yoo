@@ -50,13 +50,16 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 버전 배지는 EduPOP 기준. 통합 Lab과 학습 예제의 Java·Spring Boot·MyBatis Starter 버전은 각 저장소 설정을 기준으로 확인합니다.
 
-### Systems & Network
+### Infrastructure & Network
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
 ![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
 ![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
 
-**현재 학습 중:** Docker
+**구성 실습:** [Linux 3-Tier (React / Spring Boot / MySQL)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · AWS EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+
+**현재 학습 중:** Docker · LLM/생성형 AI 활용
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -119,6 +122,6 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 ## 06 · Infrastructure Lab
 
-**Linux · Network · Server** 환경의 설계·구축·검증·문제 해결 과정을 문서화하고 있습니다. Docker는 현재 학습 중인 기술입니다.
+**Linux 3-Tier · Network · Server** 환경의 구성·연동·검증·문제 해결 과정을 기록하고 있습니다. 별도로 **AWS EC2, VPC, ALB 및 Bastion Host**를 활용한 실습 경험이 있으며, 현재 **LLM/생성형 AI와 Docker**를 학습하고 있습니다.
 
 [GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
