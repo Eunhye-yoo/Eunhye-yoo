@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <strong>I connect service requirements with hands-on implementation, system configuration, and verification.</strong>
+  <strong>Connecting requirements, applications, and infrastructure through implementation and verification.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/IT%20Planning-FF5D5D?style=flat-square" alt="IT Planning" />
-  <img src="https://img.shields.io/badge/Infrastructure-0D1B2A?style=flat-square" alt="Infrastructure" />
-  <img src="https://img.shields.io/badge/Network-1B263B?style=flat-square" alt="Network" />
-  <img src="https://img.shields.io/badge/Information%20Security%20%28Learning%29-415A77?style=flat-square" alt="Information Security (Learning)" />
+  <img src="https://img.shields.io/badge/Requirements-FF5D5D?style=flat-square" alt="Requirements" />
+  <img src="https://img.shields.io/badge/Applications-0D1B2A?style=flat-square" alt="Applications" />
+  <img src="https://img.shields.io/badge/Infrastructure-1B263B?style=flat-square" alt="Infrastructure" />
+  <img src="https://img.shields.io/badge/Verification-415A77?style=flat-square" alt="Verification" />
 </p>
 
 <p align="center">
@@ -27,18 +27,9 @@
 
 ## 01 · About
 
-I work across the steps that connect a service idea to a working system: **organizing requirements, implementing application features, and checking how databases, servers, and networks communicate**. My hands-on work includes Java/Spring Boot, MySQL, REST APIs, Linux VMs, routing, and NAT.
+I explore how **requirements, application features, data, and server/network environments** fit together in a working system. In EduPOP, I helped define service requirements and implemented class-management and analytics features. In the Full-Stack Integration Lab, I verified React–API–MySQL integration and communication across Linux VMs using routing and NAT.
 
-Before moving into IT, I worked in education operations, coordinating instructors, students, schedules, and customer needs. In the EduPOP team project, I brought that operational perspective into requirement definition and directly implemented selected features.
-
-My areas of interest are **IT service planning, infrastructure/network, and information security**. I am building a foundation in how systems operate and how access and network paths are controlled; information security remains an area of ongoing study.
-
-| Area | Evidence |
-| --- | --- |
-| IT Planning & Requirements | Education operations · EduPOP problem definition, feature scope and user flows |
-| Infrastructure & Network | Ubuntu VMs · Static IP · Routing/NAT · SSH/SCP · connection verification |
-| Information Security Foundations | Spring Security role-based access configuration · network path and iptables NAT labs |
-| Application & Data | Spring Boot · MyBatis/MySQL · REST API · React integration |
+Before moving into IT, I coordinated instructors, students, schedules, and customer needs in education operations. I bring that perspective to requirement analysis and team projects, documenting what I actually built, configured, and verified.
 
 ---
 
@@ -127,13 +118,3 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 Hands-on documentation of **Linux · Network · Server** environments, with emphasis on design decisions, build steps, verification, and troubleshooting. Docker remains a current learning focus.
 
 [GitHub Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [Notion Infrastructure Lab](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
-
----
-
-## 07 · Career Direction
-
-**Areas of interest** → IT Service Planning · Infrastructure & Network · Information Security  
-**Hands-on foundation** → Requirements · Java/Spring Applications · Databases · Linux · Routing/NAT  
-**Long-term direction** → Technical Product · Technology & Business Leadership
-
-I am developing the ability to understand a service from its requirements to its application and underlying environment, while documenting **what I actually implemented and verified**.
