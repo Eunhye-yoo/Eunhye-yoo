@@ -74,6 +74,16 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 ## 03 · Selected Work
 
+### [OTT 인프라·보안 컨설팅](https://github.com/infra-security-team/ott-security-project) · 진행 중
+
+> **한국·캐나다 OTT 환경의 인프라 구축과 보안 개선을 계획하는 5인 팀 프로젝트**
+
+- **현재 단계 — 2026.10:** 기획·설계 준비. 계획서·역할 안내·WBS·초기 작업 Issue를 마련했으며, 실제 구축·보안 검증은 착수 전입니다.
+- **담당 역할:** PM으로 일정·범위·협업 조율, 캐나다망·VPN 및 OTT·AI 애플리케이션 개발 담당. 서비스 인프라·배포는 다른 팀원이 담당합니다.
+- **검증 계획:** 5개 보안 시나리오의 개선 전후 비교와 정상 서비스·앱 복구·DB 복원 확인.
+
+[팀 저장소](https://github.com/infra-security-team/ott-security-project) · [프로젝트 계획서](https://github.com/infra-security-team/ott-security-project/blob/main/docs/01-planning/project-plan/StreamBridge_Project_Plan_v0.2.pdf) · [개인 담당 범위](https://github.com/infra-security-team/ott-security-project/blob/main/docs/01-planning/team-roles/m5.md)
+
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
 > **학원 운영과 시험 결과를 다음 수업·학습 사이클로 연결하는 교육 플랫폼**
