@@ -16,6 +16,8 @@
 <p align="center">
   <a href="./README.md">English</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/infra-security-team/ott-security-project">OTT · 진행 중</a>
+  &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/fullstack-integration-lab">Full-Stack Lab</a>
@@ -33,46 +35,7 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 ---
 
-## 02 · Tech Stack
-
-### Application & Data
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-
-버전 배지는 EduPOP 기준. 통합 Lab과 학습 예제의 Java·Spring Boot·MyBatis Starter 버전은 각 저장소 설정을 기준으로 확인합니다.
-
-### Infrastructure & Network
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
-![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
-![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
-
-**인프라 구축 기록:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM 구성, Network/Routing/NAT, 명령어, 검증 및 Troubleshooting
-
-**애플리케이션 검증:** [3-Tier 연동 및 CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
-
-**별도 AWS 실습:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
-
-**현재 학습 중:** Docker · LLM/생성형 AI 활용
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
-
----
-
-## 03 · Selected Work
+## 02 · Selected Work
 
 ### [OTT 인프라·보안 컨설팅](https://github.com/infra-security-team/ott-security-project) · 진행 중
 
@@ -115,6 +78,45 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 
 ---
 
+## 03 · Tech Stack
+
+### Application & Data
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+버전 배지는 EduPOP 기준. 통합 Lab과 학습 예제의 Java·Spring Boot·MyBatis Starter 버전은 각 저장소 설정을 기준으로 확인합니다.
+
+### Infrastructure & Network
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
+![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
+![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
+
+**인프라 구축 기록:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM 구성, Network/Routing/NAT, 명령어, 검증 및 Troubleshooting
+
+**애플리케이션 검증:** [3-Tier 연동 및 CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
+
+**별도 AWS 실습:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+
+**현재 학습 중:** Docker · LLM/생성형 AI 활용
+
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+
+---
+
 ## 04 · Practice & Study
 
 | Repository | 학습·실습 내용 |
@@ -132,10 +134,3 @@ IT 분야로 전환하기 전에는 교육 현장에서 강사·학생·일정·
 - **정보처리기사** — 필기 합격
 - **리눅스마스터 2급** — 필기 합격
 
----
-
-## 06 · Infrastructure Lab
-
-**Linux 3-Tier · Network · Server** 환경의 설계·명령어·검증·문제 해결 과정은 Notion에, 애플리케이션 연동·CRUD 검증 자료는 GitHub에 나누어 정리했습니다. 별도로 **AWS EC2, VPC, ALB 및 Bastion Host** 실습 경험이 있으며, 현재 **LLM/생성형 AI와 Docker**를 학습하고 있습니다.
-
-[Notion 3-Tier 상세 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [GitHub 3-Tier 연동 검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Infrastructure Lab 전체 목록](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)

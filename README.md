@@ -16,6 +16,8 @@
 <p align="center">
   <a href="./README.ko.md">한국어</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/infra-security-team/ott-security-project">OTT · In Progress</a>
+  &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/fullstack-integration-lab">Full-Stack Lab</a>
@@ -33,46 +35,7 @@ Before moving into IT, I coordinated instructors, students, schedules, and custo
 
 ---
 
-## 02 · Tech Stack
-
-### Application & Data
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-
-Version badges refer to EduPOP. Integration labs and practice projects use their own Java, Spring Boot, and MyBatis starter versions.
-
-### Infrastructure & Network
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
-![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
-![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
-
-**Infrastructure build notes:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM setup, networking/routing/NAT, commands, verification, and troubleshooting
-
-**Application verification:** [3-Tier integration and CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
-
-**Separate AWS practice:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
-
-**Currently studying:** Docker · LLM / Generative AI applications
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
-
----
-
-## 03 · Selected Work
+## 02 · Selected Work
 
 ### [OTT Infrastructure & Security Consulting](https://github.com/infra-security-team/ott-security-project) · In Progress
 
@@ -115,6 +78,45 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 
 ---
 
+## 03 · Tech Stack
+
+### Application & Data
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+Version badges refer to EduPOP. Integration labs and practice projects use their own Java, Spring Boot, and MyBatis starter versions.
+
+### Infrastructure & Network
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
+![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
+![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
+
+**Infrastructure build notes:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM setup, networking/routing/NAT, commands, verification, and troubleshooting
+
+**Application verification:** [3-Tier integration and CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
+
+**Separate AWS practice:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+
+**Currently studying:** Docker · LLM / Generative AI applications
+
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+
+---
+
 ## 04 · Practice & Study
 
 | Repository | Focus |
@@ -132,10 +134,3 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 - **Engineer Information Processing (Korea)** — Written exam passed
 - **Linux Master Level 2 (Korea)** — Written exam passed
 
----
-
-## 06 · Infrastructure Lab
-
-**Linux 3-Tier · Network · Server** design, configuration commands, verification, and troubleshooting are documented in Notion; application integration and CRUD verification evidence are linked on GitHub. Separate AWS practice includes **EC2, VPC, ALB, and Bastion Host**. I am currently studying **LLM / Generative AI and Docker**.
-
-[Notion 3-Tier Build Notes](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [GitHub 3-Tier Integration Evidence](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Infrastructure Lab Index](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
