@@ -74,6 +74,16 @@ Version badges refer to EduPOP. Integration labs and practice projects use their
 
 ## 03 · Selected Work
 
+### [OTT Infrastructure & Security Consulting](https://github.com/infra-security-team/ott-security-project) · In Progress
+
+> **A five-person team project planning a Korea–Canada OTT infrastructure lab and security improvements**
+
+- **Current stage — October 2026:** Planning and design preparation. The project plan, role guides, WBS, and initial task issues are available; implementation and security validation are pending.
+- **My assigned role:** PM coordination, Canada network/VPN, and OTT/AI application development. Service infrastructure and deployment are owned by another team member.
+- **Planned validation:** Compare five security scenarios before and after remediation, alongside normal service, application recovery, and database restore checks.
+
+[Team Repository](https://github.com/infra-security-team/ott-security-project) · [Project Plan](https://github.com/infra-security-team/ott-security-project/blob/main/docs/01-planning/project-plan/StreamBridge_Project_Plan_v0.2.pdf) · [My Role & Scope](https://github.com/infra-security-team/ott-security-project/blob/main/docs/01-planning/team-roles/m5.md)
+
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
 > **An education platform that connects academy operations and test results to the next learning cycle**
