@@ -16,7 +16,7 @@
 <p align="center">
   <a href="./README.ko.md">한국어</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/infra-security-team/ott-security-project">OTT · In Progress</a>
+  <a href="https://github.com/team-blocks-lab/otter-shield">OTTer Shield · In Progress</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
   &nbsp;·&nbsp;
@@ -37,15 +37,15 @@ Before moving into IT, I coordinated instructors, students, schedules, and custo
 
 ## 02 · Selected Work
 
-### [OTT Infrastructure & Security Consulting](https://github.com/infra-security-team/ott-security-project) · In Progress
+### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · In Progress
 
-> **A five-person team project planning a Korea–Canada OTT infrastructure lab and security improvements**
+> **A five-person Team Blocks project: NetBlocks consulting for OTTer’s Korea–Canada hybrid infrastructure and security**
 
 - **Current stage — October 2026:** Planning and design preparation. The project plan, role guides, WBS, and initial task issues are available; implementation and security validation are pending.
 - **My assigned role:** PM coordination, Canada network/VPN, and OTT/AI application development. Service infrastructure and deployment are owned by another team member.
 - **Planned validation:** Compare five security scenarios before and after remediation, alongside normal service, application recovery, and database restore checks.
 
-[Team Repository](https://github.com/infra-security-team/ott-security-project) · [Project Plan](https://github.com/infra-security-team/ott-security-project/blob/main/docs/01-planning/project-plan/StreamBridge_Project_Plan_v0.2.pdf) · [My Role & Scope](https://github.com/infra-security-team/ott-security-project/blob/main/docs/01-planning/team-roles/m5.md)
+[Team Repository](https://github.com/team-blocks-lab/otter-shield) · [Project Plan](https://github.com/team-blocks-lab/otter-shield/blob/main/plans/project-plan-v0.3.pdf) · [My Role & Scope](https://github.com/team-blocks-lab/otter-shield/blob/main/design/network-guides/m5-canada-cloud.md)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
