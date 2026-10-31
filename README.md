@@ -41,16 +41,15 @@ GitHub에는 소스 코드와 기능 구현을, Notion에는 환경 구성·명�
 
 ### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · 진행 중
 
-> **한국·독일·캐나다 업무망과 OTT 서비스·AWS Store를 구성하고, 보안 개선 전후를 비교하는 5인 팀 프로젝트**
+> **웹·API 접근통제와 네트워크 경계 보안을 중심으로 구축·검증 과정을 기록하는 5인 팀 프로젝트**
 
-- **현재 단계 — 2026.10.22:** 계획서·WBS 제출 후 AS-IS(개선 전 환경) 구축·통합 기술 검토 진행
-- **PM 담당:** 일정·업무 범위 정리, GitHub Issue·업무 보드 관리, 팀원 간 작업 조율
-- **구축·개발 담당:** 캐나다 지사망·VPN, 게시판·OTT/AI·Store 앱 설계·코드, AWS Store 배포
-- **검증 계획:** 5개 보안 시나리오의 공격 재현 → 개선 → 재시험 및 정상 업무·복구 확인
+- **내 역할:** PM으로 일정·GitHub Issue·팀 간 작업 조율. M5 캐나다 지사망/VPN 및 사내 게시판·OTT·Store 애플리케이션 설계·개발 담당. 서버 배포·보안 설정은 각 망 담당자와 협업.
+- **직접 구현·로컬 검증 — M1 사내 게시판:** 세션 기반 로그인과 API 요청 흐름을 구현하고, 미로그인 접근의 `401`, 잘못된 입력의 `400`, 게시글 CRUD와 DB 반영을 확인. [테스트 보고서·캡처](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
+- **애플리케이션 보안 설계 — M3 OTT:** 세션 인증, BCrypt 비밀번호 저장, 로그인 사용자·공개 영상 재생 제한을 포함한 웹/API 구성. 팀 문서상 로컬 통합 검증 완료이며 Kubernetes 서버 배포·AI 자막 기능은 미완료. [M3 구현·환경 안내](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
+- **네트워크·클라우드 보안 학습:** M5 캐나다망·VPN과 AWS Store의 접근 경계 및 구성 방식을 검토·설계. 운영 환경 구축 여부와 직접 검증 결과는 개별 기록으로 구분.
+- **추가 검증 과제:** 다른 사용자 글 수정·삭제 차단(`403`), 서버 환경 통합 테스트, 공격 재현 후 개선·재검증. 완료된 보안 성과로 기재하지 않음.
 
-> 앱 코드·EKS/RDS·CI/CD·보안 재검증은 진행 예정 범위이며, 완료 성과와 구분합니다.
-
-[팀 저장소](https://github.com/team-blocks-lab/otter-shield) · [수행 계획서 v1.0](https://github.com/team-blocks-lab/otter-shield/blob/main/plans/project-plan-v1.0.pdf) · [M5 구축 기록 (Notion)](https://app.notion.com/p/05-Project-OTTer-Shield-M5-3ff1b198732a81c19379cd1f5730afbe?source=copy_link)
+[팀 전체 저장소·가이드](https://github.com/team-blocks-lab/otter-shield) · [M1 API 테스트 증거](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [M5 기술 기록 (Notion)](https://app.notion.com/p/05-Project-OTTer-Shield-M5-3ff1b198732a81c19379cd1f5730afbe?source=copy_link)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
