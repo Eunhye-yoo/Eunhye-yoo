@@ -1,139 +1,92 @@
 <p align="center">
-  <img src="./assets/profile-header-ink-coral.svg" alt="EunHye Yoo profile header" width="100%" />
+  <img src="./assets/profile-header-ink-coral.svg" alt="EunHye Yoo · Cloud & AI Security" width="100%" />
 </p>
 
-<p align="center">
-  <strong>Connecting requirements, applications, and infrastructure through implementation and verification.</strong>
-</p>
+<p align="center"><strong>Working toward Cloud & AI Security Engineering through code, network paths, and evidence of security controls.</strong></p>
+<p align="center"><a href="./README.md">한국어</a> · <a href="./docs/security-cases/m1-session-validation.en.md">M1 case</a> · <a href="./docs/security-cases/m3-playback-control.en.md">M3 case</a> · <a href="./docs/cloud-api-security-lab/README.en.md">Advanced lab plan</a></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Requirements-FF5D5D?style=flat-square" alt="Requirements" />
-  <img src="https://img.shields.io/badge/Applications-0D1B2A?style=flat-square" alt="Applications" />
-  <img src="https://img.shields.io/badge/Infrastructure-1B263B?style=flat-square" alt="Infrastructure" />
-  <img src="https://img.shields.io/badge/Verification-415A77?style=flat-square" alt="Verification" />
-</p>
+I am EunHye Yoo, transitioning into IT after approximately six months of development and infrastructure study. I am preparing for **security solution implementation/support, cloud security, and web/API security** roles, drawing on Java/Spring development and Linux networking labs. My long-term goal is AI Security Architect.
 
-<p align="center">
-  <a href="./README.md">한국어</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/team-blocks-lab/otter-shield">OTTer Shield · In Progress</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Eunhye-yoo/EduPOP">EduPOP</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Eunhye-yoo/fullstack-integration-lab">Full-Stack Lab</a>
-  &nbsp;·&nbsp;
-  <a href="https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link">Infrastructure Lab</a>
-</p>
+## 01 · Security Focus
 
----
+- **Authentication and sessions:** Server-side login/logout, rejection of unauthenticated requests, and HTTP response checks
+- **Input and data boundaries:** Input validation and object-ownership code review, distinguishing implementation from untested paths
+- **Network and access paths:** Linux 3-Tier, routing/NAT, DNAT, SSH, and layer-by-layer application-to-database connectivity checks
 
-## 01 · About
+Verified means **supported by existing execution records and code**. It does not imply commercial security operations experience. Documentation review: 2026-11-01.
 
-I am building hands-on application and infrastructure skills, drawing on my experience coordinating instructors, students, schedules, and customer needs in education operations.
+## 02 · Implemented Security Foundations
 
-I implemented class-management and analytics features with Java/Spring and extended React–API–MySQL integration to separate Linux servers. I am currently contributing to **OTTer Shield as PM and the owner of the Canada branch network and application development**, learning infrastructure setup and security remediation through a team project.
+### [M1 · Session authentication and invalid-request rejection](./docs/security-cases/m1-session-validation.en.md)
 
-I use GitHub for source code and implementation, and Notion for environment setup, commands, and verification records.
+Implemented intranet authentication/input checks and tested APIs locally. Evidence records login/session lookup `200`, logout `204`, subsequent post lookup `401`, and blank-title/disallowed anonymous submissions `400`.
 
----
+**My contribution:** Login/post APIs, React UI, and local validation. Cross-user mutation checks exist in code; the `403` API test remains incomplete.
 
-## 02 · Selected Work
+[Test report](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [401 capture](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/evidence/08-unauthorized-401.png)
 
-### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · In Progress
+### [M3 · Login and publication-state checks for playback APIs](./docs/security-cases/m3-playback-control.en.md)
 
-> **A five-person project documenting security implementation and validation, with a focus on web/API access control and network boundaries**
+Implemented OTT login/sessions and PUBLIC video lookup/playback APIs. Evidence records `401` for invalid login and session lookup after logout, and `404` for PRIVATE video details/playback.
 
-- **My role:** Project management, GitHub issues, and cross-team coordination; assigned to the M5 Canada branch network/VPN and application design/development for the intranet, OTT, and Store services. Server deployment and security configurations are coordinated with each network owner.
-- **Implemented and tested locally — M1 intranet:** Built the session-based login and API flow; verified `401` for unauthenticated access, `400` for invalid input, and post CRUD responses with database changes. [Test report and evidence](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
-- **Application security design — M3 OTT:** Web/API structure using session authentication, BCrypt password hashing, and playback restricted to signed-in users and public videos. Team documentation records local integration validation; Kubernetes deployment and AI subtitle generation remain incomplete. [M3 implementation notes](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
-- **Network and cloud security study:** Exploring the access boundaries and planned configuration of the M5 Canada VPN/network and AWS Store. Design, implementation, and validation are distinguished in the detailed records.
-- **Further verification needed:** Cross-user edit/delete rejection (`403`), integrated server testing, and attack reproduction followed by remediation and retesting. These are not presented as completed security outcomes.
+**Boundary:** Restricting playback URL responses does not protect the MP4 itself. CDN file protection, server deployment, and AI subtitle generation remain unverified.
 
-[Team repository and guides](https://github.com/team-blocks-lab/otter-shield) · [M1 API test evidence](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [M5 technical notes (Notion)](https://app.notion.com/p/05-Project-OTTer-Shield-M5-3ff1b198732a81c19379cd1f5730afbe?source=copy_link)
+[Evidence index](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/docs/evidence/README.md) · [Implementation commit](https://github.com/team-blocks-lab/otter-shield/commit/d3772bc550681d1f05f5a7f31b86f6a3f9cfc9b7)
 
-### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
+## 03 · Next Security Focus
 
-> **An education platform that connects academy operations and test results to the next learning cycle**
+**Develop a deeper personal case around M5 VPN and AWS access boundaries.** First resolve remaining connectivity/deployment checks, then compare permitted business requests with DB/management requests that should be denied under the same conditions.
 
-`Java` `Spring Boot` `MyBatis` `MySQL`
+[Personal security experiment plan](./docs/security-plans/m5-access-boundaries.en.md) — threats, ownership, access matrix, before/after tests, evidence, and completion criteria. **Planned, not a completed achievement.**
 
-- **Problem & requirement definition** — Proposed the original concept and translated academy-operation and learning needs into core service flows and feature scope
-- **Class management implementation** — Implemented class creation and updates, student/multi-instructor assignment, duplicate and capacity checks, and status-based class closure
-- **Pre-Class Dashboard** — Built class/student performance summaries and weak-area signals to support a three-minute pre-class review goal
-- **Student Performance Report** — Implemented score trends and strength/weakness analysis, with analytics logic reused in monthly reporting code
+## 04 · Projects
 
-> **Scope note:** Three minutes is a design goal, not a measured result. Assignment/access checks differ by path, and the parent-facing report share link is unfinished.
+### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · Primary / In progress
 
-[Project README](https://github.com/Eunhye-yoo/EduPOP) · [Planning & Implementation Portfolio (PDF · Korean)](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo Video](https://youtu.be/mkAcPCD7VOY)
+Five-person OTT infrastructure and security-validation project.
 
-### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+- **My responsibility:** PM scheduling/issues, M1 intranet and M3 OTT development/local tests, M5 Canada branch network and AWS configuration
+- **Hands-on records:** Sophos UTM/five-PC basic connectivity, AWS CloudFormation VPC/NAT setup, EKS control plane ACTIVE
+- **Individual boundary:** Other members’ network security, deployment, monitoring, and backup outcomes are excluded from my achievements
+- **Remaining:** Established VPN/round-trip traffic, EKS Ready nodes/application deployment, RDS/ALB/HTTPS, and post-remediation retests
 
-> **Hands-on integration labs connecting frontend, backend, database, Linux servers, and network paths**
+[M5 technical notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe) · [Contribution/evidence inventory](./docs/portfolio-audit.md)
 
-`React` `Spring Boot` `MyBatis` `MySQL` `Linux` `Routing/NAT`
+### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · Infrastructure foundation
 
-- **Application integration** — Verified React → Vite Proxy → Spring Boot → MyBatis → MySQL CRUD flow and corrected environment-specific datasource/API configuration
-- **Linux 3-Tier environment** — Separated React, Spring Boot, and MySQL across Ubuntu VMs with static IPs and remote database access
-- **Network extension** — Added a Linux NAT Router, IPv4 forwarding, MASQUERADE, SSH/SCP, and DNAT port forwarding, then verified the full Windows → Router → React → Spring Boot → MySQL path
-- **Express API** — Added Express source and verified query, path, and JSON body handling with GET/POST/PUT/DELETE responses. PUT/DELETE are learning examples without database persistence.
+Separated React, Spring Boot, and MySQL into Ubuntu VMs. Configured Linux NAT routing, IP forwarding, MASQUERADE, DNAT, and SSH/SCP; compared API, DB, and browser results. **A lab for understanding connectivity and access paths**, not an attack-blocking or firewall-hardening achievement.
 
-[Repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [3-Tier Infrastructure Build Notes (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [Infrastructure Lab Index](https://app.notion.com/p/Infrastructure-Lab-3dd1b198732a8059b1b1f2f410f08dc6?source=copy_link)
+[3-Tier implementation/evidence](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Commands/troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
----
+### [EduPOP](https://github.com/Eunhye-yoo/EduPOP) · Supporting application project
 
-## 03 · Tech Stack
+Implemented class creation, multi-instructor/student mapping, academy-ownership checks on class detail views, input/duplicate/capacity validation, dashboards, and student reports. **Ownership checks are not uniform across mutation/assignment paths.** Spring Security, OAuth, and shared login are team features.
 
-### Application & Data
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis%20Starter-4.0.1-000000?style=flat-square)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
+[Code-based contribution/limitations](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md) · [Existing portfolio PDF, Korean](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo](https://youtu.be/mkAcPCD7VOY)
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+## 05 · Core Skills
 
-Version badges refer to EduPOP. Integration labs and practice projects use their own Java, Spring Boot, and MyBatis starter versions.
+- **Verified · Execution evidence:** Java/Spring session/input-check APIs, Postman HTTP responses, React/API/MySQL integration — M1/M3 cases and 3-Tier evidence above
+- **Hands-on · Configuration:** Linux, SSH/SCP, routing/NAT, DNAT, Sophos basic network, AWS VPC/NAT/CloudFormation/EKS control plane — separate from verified node/application operations
+- **Learning:** Web/API authentication/authorization, cloud access boundaries, LLM API integration
+- **Planned:** Cloudflare WAF/Tunnel → AWS IAM/WAF/CloudTrail security experiments → Docker image/secret review → AI Gateway or LiteLLM → agent tool permissions/guardrails
 
-### Infrastructure & Network
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square)
-![Routing/NAT](https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square)
-![SSH/SCP](https://img.shields.io/badge/SSH%20%2F%20SCP-475569?style=flat-square)
+Java, Spring Boot, JPA/MyBatis, MySQL, and React support these implementations; they do not establish security-product proficiency. [Lab design and completion criteria](./docs/cloud-api-security-lab/README.en.md)
 
-**Infrastructure build notes:** [Linux 3-Tier + NAT Router (Notion)](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) — VM setup, networking/routing/NAT, commands, verification, and troubleshooting
+## 06 · Certifications
 
-**Application verification:** [3-Tier integration and CRUD (GitHub)](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier)
+- **Certified:** Network Administrator Level 2, Korea
+- **Exam stages passed:** Engineer Information Processing written exam / Linux Master Level 2 first-stage exam
+- **Long-term options, not earned:** CISSP, AWS Security – Specialty, AWS Solutions Architect – Professional. CISSP experience eligibility remains unconfirmed
 
-**Separate AWS practice:** EC2/VPC/ALB (Linux httpd, Windows IIS, Bastion Host)
+## 07 · Technical Documentation
 
-**Additional practice and study:** Docker · Python-based LLM / Generative AI APIs
+**GitHub:** Source, APIs, and application evidence. **Notion:** Environments, configuration commands, networks, and troubleshooting.
 
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+[Infrastructure Lab](https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6) · [Linux 3-Tier](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [OTTer M5](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
----
+Foundational study: [Spring Boot](https://github.com/Eunhye-yoo/springBoot_practice) · [React](https://github.com/Eunhye-yoo/react_practice) · [Servlet](https://github.com/Eunhye-yoo/servlet_practice) · [Study Log](https://github.com/Eunhye-yoo/study_log). Coursework and unfinished missions are separated from featured security work.
 
-## 04 · Practice & Study
+## 08 · English Communication
 
-| Repository | Focus |
-| --- | --- |
-| [Spring Boot Practice](https://github.com/Eunhye-yoo/springBoot_practice) | Spring MVC · Thymeleaf · Interceptor/AOP · JPA · QueryDSL |
-| [React Practice](https://github.com/Eunhye-yoo/react_practice) | JavaScript · Components · Hooks · Router · State |
-| [Servlet Practice](https://github.com/Eunhye-yoo/servlet_practice) | Servlet · JSP · JDBC · Session · Request flow |
-| [Study Log](https://github.com/Eunhye-yoo/study_log) | Network · Routing · Server · IT fundamentals |
-
----
-
-## 05 · Certifications
-
-- **Network Administrator Level 2 (Korea)** — Certified
-- **Engineer Information Processing (Korea)** — Written exam passed
-- **Linux Master Level 2 (Korea)** — First-stage exam passed
-
+Study and life in Canada, a commerce degree, and English-teaching experience provide a background for reading English technical documentation and communicating in English. I aim to apply this to global collaboration and English technical support; I have no overseas technical-support or AWS ticket-handling work experience.
