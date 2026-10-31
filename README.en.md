@@ -41,16 +41,15 @@ I use GitHub for source code and implementation, and Notion for environment setu
 
 ### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · In Progress
 
-> **A five-person project connecting Korea, Germany, and Canada office networks, OTT services, and an AWS Store, with before-and-after security validation**
+> **A five-person project documenting security implementation and validation, with a focus on web/API access control and network boundaries**
 
-- **Current stage — October 22, 2026:** Project plan and WBS submitted; AS-IS environment build and integrated technical review in progress
-- **PM responsibilities:** Schedule and scope coordination, GitHub Issues and project-board management, and cross-team task coordination
-- **Assigned technical scope:** Canada branch network/VPN, intranet・OTT/AI・Store application design and code, and AWS Store deployment
-- **Planned validation:** Reproduce five security scenarios, apply remediation, and retest security, normal operations, and recovery
+- **My role:** Project management, GitHub issues, and cross-team coordination; assigned to the M5 Canada branch network/VPN and application design/development for the intranet, OTT, and Store services. Server deployment and security configurations are coordinated with each network owner.
+- **Implemented and tested locally — M1 intranet:** Built the session-based login and API flow; verified `401` for unauthenticated access, `400` for invalid input, and post CRUD responses with database changes. [Test report and evidence](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
+- **Application security design — M3 OTT:** Web/API structure using session authentication, BCrypt password hashing, and playback restricted to signed-in users and public videos. Team documentation records local integration validation; Kubernetes deployment and AI subtitle generation remain incomplete. [M3 implementation notes](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
+- **Network and cloud security study:** Exploring the access boundaries and planned configuration of the M5 Canada VPN/network and AWS Store. Design, implementation, and validation are distinguished in the detailed records.
+- **Further verification needed:** Cross-user edit/delete rejection (`403`), integrated server testing, and attack reproduction followed by remediation and retesting. These are not presented as completed security outcomes.
 
-> Application code, EKS/RDS, CI/CD, and security retesting are planned work, not completed outcomes.
-
-[Team Repository](https://github.com/team-blocks-lab/otter-shield) · [Project Plan v1.0](https://github.com/team-blocks-lab/otter-shield/blob/main/plans/project-plan-v1.0.pdf) · [M5 Build Notes (Notion)](https://app.notion.com/p/05-Project-OTTer-Shield-M5-3ff1b198732a81c19379cd1f5730afbe?source=copy_link)
+[Team repository and guides](https://github.com/team-blocks-lab/otter-shield) · [M1 API test evidence](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [M5 technical notes (Notion)](https://app.notion.com/p/05-Project-OTTer-Shield-M5-3ff1b198732a81c19379cd1f5730afbe?source=copy_link)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
