@@ -2,91 +2,78 @@
   <img src="./assets/profile-header-ink-coral.svg" alt="EunHye Yoo · Cloud & AI Security" width="100%" />
 </p>
 
-<p align="center"><strong>Cloud & AI Security Engineering을 목표로, 코드와 통신 경로에서 보안 통제를 확인하고 검증 기록을 남깁니다.</strong></p>
-<p align="center"><a href="./README.en.md">English</a> · <a href="./docs/security-plans/m5-access-boundaries.md">M5 보안 확장 계획</a> · <a href="./docs/security-cases/m1-session-validation.md">M1 API 검증</a> · <a href="./docs/security-cases/m3-playback-control.md">M3 API 검증</a> · <a href="./docs/cloud-api-security-lab/README.md">심화 Lab 계획</a></p>
+<p align="center"><strong>Cloud & AI Security</strong></p>
+<p align="center"><a href="./README.en.md">English</a> · <a href="https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6">Technical Notes</a></p>
 
-개발·인프라를 약 6개월 학습한 IT 경력전환자 유은혜입니다. Java/Spring 애플리케이션 구현과 Linux 네트워크 실습을 바탕으로 **보안 솔루션 구축·기술지원, 클라우드 보안, 웹/API 보안** 직무를 준비하고 있습니다. 장기 목표는 AI Security Architect입니다.
+보안 솔루션 구축·기술지원과 클라우드 보안 분야를 준비하는 유은혜입니다. Java/Spring으로 REST API를 구현하고 Linux와 AWS에서 서버·네트워크를 구성하며 서비스의 동작과 접근 경로를 익히고 있습니다.
 
-## 01 · Security Focus
+## Projects
 
-- **인증·세션:** 서버 세션 기반 로그인·로그아웃, 미인증 요청 거절 및 HTTP 응답 확인
-- **입력·데이터 경계:** 입력 검증과 객체 소유권 검사 코드 분석, 구현된 경로와 미검증 경로 구분
-- **네트워크·접근 경로:** Linux 3-Tier, Routing/NAT·DNAT·SSH, 애플리케이션에서 DB까지 계층별 연결 확인
+### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · 진행 중
 
-이 포트폴리오의 Verified는 **기존 실행 기록과 코드가 뒷받침하는 범위**입니다. 상용 보안 시스템 운영 경력을 의미하지 않습니다. 문서 검토 기준: 2026-11-01.
+OTT 서비스를 위한 하이브리드 인프라 구축·보안 검증 팀 프로젝트. **PM, 애플리케이션 개발, M5 캐나다 지사망·AWS 구성 담당.**
 
-## 02 · 직접 구현한 보안 기초
+**사내 게시판 · REST API 개발과 검증**
 
-### [M1 · 세션 인증과 잘못된 요청 거절](./docs/security-cases/m1-session-validation.md)
+- 로그인·로그아웃, 게시글 CRUD, 이미지 첨부 API 및 React 화면 구현
+- Postman으로 요청·응답을 확인하고 MySQL 데이터와 대조하여 저장·수정·삭제 검증
+- 서버 세션을 이용한 로그인 처리와 미로그인 접근 차단 확인(`401`), 공백 제목 등 잘못된 입력 거절 확인(`400`)
+- BCrypt 비밀번호 처리와 게시글 작성자 확인 로직 구현
 
-사내 게시판 인증·입력 검사 구현 및 로컬 API 검증. 로그인·세션 조회 `200`, 로그아웃 `204`, 이후 게시글 조회 `401`, 공백 제목·허용되지 않은 익명 등록 `400` 기록.
+[API 테스트 보고서·캡처](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [소스 코드](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m1-intranet/backend)
 
-**내 기여:** 로그인·게시글 API와 React 화면 개발·자체 검증. 타인 글 변경 거절 코드는 있지만 `403` API 시험은 미완료.
+**OTT 서비스 · 회원·영상 API 개발**
 
-[테스트 보고서](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [401 캡처](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/evidence/08-unauthorized-401.png)
+회원가입·로그인, 공개 영상 조회와 재생 API 구현. 세션 상태와 영상 공개 여부에 따라 응답을 구분하고 로컬에서 API·React 화면 연동 확인.
 
-### [M3 · 공개 상태와 로그인에 따른 재생 API 통제](./docs/security-cases/m3-playback-control.md)
+[구현·검증 자료](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott)
 
-OTT 로그인·세션 및 PUBLIC 영상 조회·재생 API 구현. 잘못된 로그인·로그아웃 이후 세션 조회 `401`, PRIVATE 영상 상세·재생 `404` 기록.
+**캐나다 지사망·AWS · 보안 실습 확장**
 
-**검증 경계:** API의 재생 URL 반환 제한과 실제 MP4 파일 접근통제는 별개. CDN 파일 보호·서버 배포·AI 자막 생성은 미검증.
+Sophos UTM과 PC 5대의 기본 통신 구성. AWS CloudFormation으로 VPC·서브넷·NAT 구성, EKS 제어 영역 활성화 확인.
 
-[검증 목록](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/docs/evidence/README.md) · [구현 커밋](https://github.com/team-blocks-lab/otter-shield/commit/d3772bc550681d1f05f5a7f31b86f6a3f9cfc9b7)
+현재 담당 파트의 보안 실습을 확장해 VPN 업무 통신과 DB·관리 서비스의 접근 제한을 검증할 계획입니다. AWS에서는 관리 권한과 앱→DB 접근 경로를 점검할 예정입니다.
 
-## 03 · 앞으로 집중할 보안 과제
+[M5 기술 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe) · [보안 확장 계획](./docs/security-plans/m5-access-boundaries.md)
 
-**M5의 VPN·AWS 접근 경계를 직접 설계·시험하는 사례로 심화할 계획입니다.** 현재 남아 있는 연결·배포 검증부터 완료한 뒤, 허용된 업무 요청과 거절해야 할 DB·관리 요청을 같은 조건에서 비교합니다.
+### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
-[개인 보안 실습 상세 계획](./docs/security-plans/m5-access-boundaries.md) — 위협·담당 범위·접근 행렬·변경 전후 시험·증거·완료 기준. **Planned이며 완료 실적 아님.**
+**Linux 서버를 분리하고 웹 요청부터 DB까지 연결한 개인 실습.**
 
-## 04 · Projects
+- React·Spring Boot·MySQL을 각각 Ubuntu VM에 배치
+- Linux NAT Router, IP Forwarding, MASQUERADE·DNAT, SSH/SCP 구성
+- API 응답·브라우저 화면·DB 데이터를 대조하여 전체 연결 확인
+- Gateway·DNS·Proxy·DB 접속 설정을 나누어 연결 오류 점검
 
-### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · 주력 / 진행 중
+[3-Tier 실습·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [설정 명령어·문제 해결 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
-5인 팀의 OTT 환경 구축·보안 검증 프로젝트.
+### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
-- **직접 담당:** PM 일정·Issue 조율, M1 게시판·M3 OTT 앱 개발·로컬 검증, M5 캐나다 지사망·AWS 구성
-- **실습 기록:** Sophos UTM·PC 5대 기본 통신, AWS CloudFormation VPC·NAT 구성, EKS 제어 영역 ACTIVE 기록
-- **개인 범위 경계:** 다른 팀원의 망 보안·서버 배포·관제·백업 성과는 개인 실적에서 제외
-- **남은 범위:** VPN 성립·왕복 통신, EKS 노드 Ready·앱 배포, RDS·ALB·HTTPS 및 보안 개선 후 재시험
+학원 운영·학습 관리 팀 프로젝트. **반 관리, 강사·학생 배정, 대시보드와 개인 성적표 구현 담당.**
 
-[M5 기술 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe) · [개인 기여·근거 목록](./docs/portfolio-audit.md)
+반 생성과 다중 강사·학생 매핑, 중복·정원 검사 구현. 반 상세 조회에서는 로그인 사용자의 소속 학원과 조회 대상의 학원을 비교하도록 처리했습니다. Controller–Service–MyBatis–DB로 이어지는 데이터 흐름을 구성했습니다.
 
-### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab) · 인프라 기초
+[본인 구현·접근통제 검토](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.md) · [포트폴리오 PDF](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [시연 영상](https://youtu.be/mkAcPCD7VOY)
 
-React–Spring Boot–MySQL을 Ubuntu VM으로 분리. Linux NAT Router·IP Forwarding·MASQUERADE·DNAT와 SSH/SCP 구성, API·DB·브라우저 결과 대조. **서버 간 통신과 접근 경로를 이해하기 위한 실습**이며 공격 차단·방화벽 강화 성과로 해석하지 않습니다.
+## Skills
 
-[3-Tier 구현·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [명령어·장애 분석](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+| 구분 | 기술·경험 |
+| --- | --- |
+| 구현·검증 | Java · Spring Boot · REST API · Session · JPA/MyBatis · MySQL · Postman |
+| 인프라 실습 | Linux · SSH/SCP · Routing/NAT · Sophos UTM · AWS VPC/CloudFormation · EKS 초기 구성 |
+| 학습 중 | 웹/API 인증·인가 · 클라우드 접근통제 · LLM API 연동 |
+| 후속 실습 | WAF · Docker 보안 · AI Gateway · Agent 도구 권한 |
 
-### [EduPOP](https://github.com/Eunhye-yoo/EduPOP) · 애플리케이션 보조 프로젝트
+[Cloud & API Security Lab 계획](./docs/cloud-api-security-lab/README.md)
 
-반 생성, 다중 강사·학생 매핑, 반 상세 조회의 학원 소유권 확인, 입력·중복·정원 검사와 대시보드·개인 성적표 구현. **수정·배정 등 모든 경로에 동일한 소유권 검사가 적용된 것은 아닙니다.** Spring Security·OAuth·공통 로그인은 팀 기능으로 구분합니다.
+## Certifications
 
-[코드 기준 기여·한계](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.md) · [기존 포트폴리오 PDF](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [시연](https://youtu.be/mkAcPCD7VOY)
+- **네트워크관리사 2급** — 취득
+- **정보처리기사** — 필기 합격
+- **리눅스마스터 2급** — 1차 합격
 
-## 05 · Core Skills
+## Technical Notes & English
 
-- **Verified · 실행 증거:** Java/Spring 세션·입력 검사 API, Postman HTTP 응답, React/API/MySQL 연결 — 위 M1·M3 사례와 3-Tier Evidence
-- **Hands-on · 구성 경험:** Linux·SSH/SCP·Routing/NAT·DNAT, Sophos 기본망, AWS VPC·NAT·CloudFormation·EKS 제어 영역 — 노드·앱 운영 검증과 구분
-- **Learning · 학습 중:** 웹/API 인증·인가(사용자와 허용 작업 확인), 클라우드 접근 경계, LLM API 연동
-- **Planned · 구현 예정:** Cloudflare WAF·Tunnel → AWS IAM·WAF·CloudTrail 보안 실험 → Docker 이미지·비밀정보 점검 → AI Gateway 또는 LiteLLM → Agent 도구 권한·Guardrails
+GitHub에는 소스와 API 검증 자료를, [Notion](https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6)에는 인프라 설정·명령어·문제 해결 과정을 기록합니다.
 
-Java·Spring Boot·JPA/MyBatis·MySQL·React는 구현 기반 기술입니다. 제품별 보안 숙련도를 의미하지 않습니다. [심화 Lab 설계·완료 기준](./docs/cloud-api-security-lab/README.md)
-
-## 06 · Certifications
-
-- **취득:** 네트워크관리사 2급
-- **시험 단계 합격:** 정보처리기사 필기 / 리눅스마스터 2급 1차
-- **장기 검토 목표·미취득:** CISSP, AWS Security – Specialty, AWS Solutions Architect – Professional. CISSP 경력 인정 여부 미확정
-
-## 07 · Technical Documentation
-
-**GitHub:** 소스·API·애플리케이션 검증 Evidence. **Notion:** 환경·설정 명령어·네트워크·Troubleshooting.
-
-[Infrastructure Lab](https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6) · [Linux 3-Tier](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175) · [OTTer M5](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-
-기초 학습 저장소: [Spring Boot](https://github.com/Eunhye-yoo/springBoot_practice) · [React](https://github.com/Eunhye-yoo/react_practice) · [Servlet](https://github.com/Eunhye-yoo/servlet_practice) · [Study Log](https://github.com/Eunhye-yoo/study_log). 수업 예제·미완성 미션은 대표 보안 실적과 구분합니다.
-
-## 08 · English Communication
-
-캐나다 유학·해외생활과 경영학 전공, 영어 교육 경험을 바탕으로 영문 기술문서 이해와 영어 의사소통에 활용 가능한 배경 보유. 글로벌 협업·영문 기술지원 직무에 연결하고자 하며, 해외 기술지원·AWS 티켓 처리 경력은 없습니다.
+캐나다 유학·해외생활, 경영학 전공과 영어 교육 경험이 있습니다. 영문 기술문서를 읽고 영어로 소통하는 데 이 경험을 활용하고 있습니다.
