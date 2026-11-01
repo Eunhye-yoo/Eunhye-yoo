@@ -3,7 +3,7 @@
 </p>
 
 <p align="center"><strong>Working toward Cloud & AI Security Engineering through code, network paths, and evidence of security controls.</strong></p>
-<p align="center"><a href="./README.md">한국어</a> · <a href="./docs/security-cases/m1-session-validation.en.md">M1 case</a> · <a href="./docs/security-cases/m3-playback-control.en.md">M3 case</a> · <a href="./docs/cloud-api-security-lab/README.en.md">Advanced lab plan</a></p>
+<p align="center"><a href="./README.md">한국어</a> · <a href="./docs/security-plans/m5-access-boundaries.en.md">M5 security plan</a> · <a href="./docs/security-cases/m1-session-validation.en.md">M1 API evidence</a> · <a href="./docs/security-cases/m3-playback-control.en.md">M3 API evidence</a> · <a href="./docs/cloud-api-security-lab/README.en.md">Advanced lab plan</a></p>
 
 I am EunHye Yoo, transitioning into IT after approximately six months of development and infrastructure study. I am preparing for **security solution implementation/support, cloud security, and web/API security** roles, drawing on Java/Spring development and Linux networking labs. My long-term goal is AI Security Architect.
 
