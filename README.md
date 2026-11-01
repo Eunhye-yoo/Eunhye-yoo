@@ -57,14 +57,36 @@ Sophos UTM과 PC 5대의 기본 통신 구성. AWS CloudFormation으로 VPC·서
 
 ## Skills
 
-| 구분 | 기술·경험 |
-| --- | --- |
-| 구현·검증 | Java · Spring Boot · REST API · Session · JPA/MyBatis · MySQL · Postman |
-| 인프라 실습 | Linux · SSH/SCP · Routing/NAT · Sophos UTM · AWS VPC/CloudFormation · EKS 초기 구성 |
-| 학습 중 | 웹/API 인증·인가 · 클라우드 접근통제 · LLM API 연동 |
-| 후속 실습 | WAF · Docker 보안 · AI Gateway · Agent 도구 권한 |
+### 개발·API 검증
 
-[Cloud & API Security Lab 계획](./docs/cloud-api-security-lab/README.md)
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/MyBatis-415A77?style=flat-square" alt="MyBatis" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
+  <img src="https://img.shields.io/badge/JavaScript-B89B00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="24" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="Postman" height="24" />
+</p>
+
+REST API · 세션 인증 · 입력 검증 · Postman 요청·응답 확인 · MySQL 데이터 대조
+
+### 인프라·보안
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
+  <img src="https://img.shields.io/badge/SSH%20%2F%20SCP-415A77?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="SSH / SCP" height="24" />
+  <img src="https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square" alt="Routing / NAT" height="24" />
+  <img src="https://img.shields.io/badge/Sophos%20UTM-1B263B?style=flat-square&amp;logo=sophos&amp;logoColor=white" alt="Sophos UTM" height="24" />
+  <img src="https://img.shields.io/badge/AWS-1B263B?style=flat-square&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS" height="24" />
+</p>
+
+- **Linux · SSH:** 원격 서버 접속, 앱·DB 서버 분리, 연결 오류 점검
+- **Routing · NAT:** IP Forwarding, MASQUERADE·DNAT, 서버 간 통신 경로 확인
+- **Sophos UTM:** OPS·CONTENT·MGMT 구역 분리와 기본 통신 구성
+- **AWS:** VPC·서브넷·NAT, EKS 클러스터용 IAM Role 설정
+
+[Cloud & API Security Lab 학습 계획](./docs/cloud-api-security-lab/README.md)
 
 ## Certifications
 
