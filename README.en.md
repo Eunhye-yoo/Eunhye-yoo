@@ -57,12 +57,34 @@ Built class creation, multi-instructor/student mapping, and duplicate/capacity c
 
 ## Skills
 
-| Scope | Technologies and experience |
-| --- | --- |
-| Implementation and testing | Java · Spring Boot · REST API · Session · JPA/MyBatis · MySQL · Postman |
-| Infrastructure practice | Linux · SSH/SCP · Routing/NAT · Sophos UTM · AWS VPC/CloudFormation · Initial EKS setup |
-| Learning | Web/API authentication and authorization · Cloud access control · LLM API integration |
-| Planned labs | WAF · Docker security · AI Gateway · Agent tool permissions |
+### Development & API Testing
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/MyBatis-415A77?style=flat-square" alt="MyBatis" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
+  <img src="https://img.shields.io/badge/JavaScript-B89B00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="24" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="Postman" height="24" />
+</p>
+
+REST APIs · Session authentication · Input validation · Postman request/response checks · MySQL data verification
+
+### Infrastructure & Security
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
+  <img src="https://img.shields.io/badge/SSH%20%2F%20SCP-415A77?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="SSH / SCP" height="24" />
+  <img src="https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square" alt="Routing / NAT" height="24" />
+  <img src="https://img.shields.io/badge/Sophos%20UTM-1B263B?style=flat-square&amp;logo=sophos&amp;logoColor=white" alt="Sophos UTM" height="24" />
+  <img src="https://img.shields.io/badge/AWS-1B263B?style=flat-square&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS" height="24" />
+</p>
+
+- **Linux · SSH:** Remote server access, application/DB separation, connection troubleshooting
+- **Routing · NAT:** IP forwarding, MASQUERADE/DNAT, checking traffic paths between servers
+- **Sophos UTM:** Separate OPS/CONTENT/MGMT networks and basic connectivity setup
+- **AWS:** VPC/subnets/NAT and EKS cluster IAM role setup
 
 [Cloud & API Security Lab plan](./docs/cloud-api-security-lab/README.en.md)
 
