@@ -3,7 +3,7 @@
 </p>
 
 <p align="center"><strong>Cloud & AI Security Engineering을 목표로, 코드와 통신 경로에서 보안 통제를 확인하고 검증 기록을 남깁니다.</strong></p>
-<p align="center"><a href="./README.en.md">English</a> · <a href="./docs/security-cases/m1-session-validation.md">M1 보안 사례</a> · <a href="./docs/security-cases/m3-playback-control.md">M3 보안 사례</a> · <a href="./docs/cloud-api-security-lab/README.md">심화 Lab 계획</a></p>
+<p align="center"><a href="./README.en.md">English</a> · <a href="./docs/security-plans/m5-access-boundaries.md">M5 보안 확장 계획</a> · <a href="./docs/security-cases/m1-session-validation.md">M1 API 검증</a> · <a href="./docs/security-cases/m3-playback-control.md">M3 API 검증</a> · <a href="./docs/cloud-api-security-lab/README.md">심화 Lab 계획</a></p>
 
 개발·인프라를 약 6개월 학습한 IT 경력전환자 유은혜입니다. Java/Spring 애플리케이션 구현과 Linux 네트워크 실습을 바탕으로 **보안 솔루션 구축·기술지원, 클라우드 보안, 웹/API 보안** 직무를 준비하고 있습니다. 장기 목표는 AI Security Architect입니다.
 
