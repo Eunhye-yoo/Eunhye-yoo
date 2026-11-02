@@ -57,10 +57,12 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 
 Personal lab separating web, application, and database servers and checking traffic paths
 
-- **3-Tier configuration** — React, Spring Boot, and MySQL on three Ubuntu VMs; CRUD integration · [Configuration and tests](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md)
-- **Networking and remote access** — Linux NAT router, IP forwarding, MASQUERADE/DNAT, and SSH/SCP · [Build notes](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
-- **Database access control** — Spring-host-specific MySQL account and remote connection checks · [Configuration and tests](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md#spring-boot--mysql)
-- **Troubleshooting** — Netplan conflict resolution; IP, route, and NAT persistence after reboot · [Troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+- **3-Tier configuration** — React, Spring Boot, and MySQL on three Ubuntu VMs; CRUD integration
+- **Networking and remote access** — Linux NAT router, IP forwarding, MASQUERADE/DNAT, and SSH/SCP
+- **Database access control** — Spring-host-specific MySQL account and remote connection checks
+- **Troubleshooting** — Netplan conflict resolution; IP, route, and NAT persistence after reboot
+
+[Configuration and tests](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md) · [Settings and troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
