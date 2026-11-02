@@ -39,7 +39,7 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 
 - **Branch network** — Sophos UTM zones, PC configuration, and IPsec VPN connection · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 - **AWS infrastructure** — CloudFormation VPC, subnet, and NAT configuration; EKS, deployment, and domain integration scope · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **Intranet** — Login, sessions, post CRUD, and image uploads; HTTP response and database verification · [API tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
+- **Intranet** — Login, sessions, post CRUD, and image uploads; HTTP response and database verification · [Implementation and tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/README.md)
 - **OTT web** — Registration, sessions, video queries, playback access checks, and Korean/English subtitles · [Implementation and tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
 - **Merchandise Store** — Member, product, cart, mock-order web/API design and AWS deployment design · [Design](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
 - **AI subtitles** — LLM-based subtitle generation and OTT integration scope · [Development scope](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
