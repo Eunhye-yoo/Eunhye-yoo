@@ -3,7 +3,7 @@
 </p>
 
 <p align="center"><strong>보안 솔루션 구축·기술지원 · 클라우드 보안</strong></p>
-<p align="center"><a href="./README.en.md">English</a> · <a href="https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6">기술 기록</a></p>
+<p align="center"><a href="./README.en.md">English</a> · <a href="https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6">인프라 실습 노트</a></p>
 
 ## 유은혜 | EunHye Yoo
 
@@ -43,9 +43,9 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 - 로그인·세션·게시글 CRUD·이미지 첨부 API 구현, Postman·HTTP 상태 코드·MySQL 데이터로 동작 검증
 - LLM 기반 자막 생성 기능 개발
 
-[게시판 API 테스트 보고서](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT 구현 자료](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [캐나다 지사 기술 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+[사내 게시판 API 검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT 웹·API](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [굿즈 Store 설계](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m5-store) · [네트워크 구성도](https://github.com/team-blocks-lab/otter-shield/blob/main/design/topology/README.md) · [캐나다망·AWS 구축 노트](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
-### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+### [Linux·네트워크 인프라 실습](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
 <p>
   <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
@@ -55,14 +55,14 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
 </p>
 
-웹·애플리케이션·DB를 분리하고 통신 경로를 확인한 개인 실습
+Ubuntu 기반 웹·API·DB 서버 분리 및 네트워크 통신 검증
 
 - Ubuntu VM 3대에 React·Spring Boot·MySQL 분리 구성 및 CRUD 연동
 - Linux NAT Router, IP Forwarding, MASQUERADE·DNAT, SSH/SCP 구성
 - DB 외부 접속 권한·연결값 설정 및 원격 DB 연결 확인
 - Netplan 설정 충돌 해결, 재부팅 후 IP·경로·NAT 유지 점검
 
-[3-Tier 실습·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [명령어·문제 해결 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+[인프라 실습 저장소](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [3-Tier 구성·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [명령어·문제 해결 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
