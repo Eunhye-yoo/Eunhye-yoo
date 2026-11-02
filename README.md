@@ -39,7 +39,7 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 
 - **지사 네트워크** — Sophos UTM 구역 분리·PC 설정·IPsec VPN 연결 · [구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 - **AWS 인프라** — CloudFormation 기반 VPC·서브넷·NAT 구성, EKS·서비스 배포·도메인 연결 담당 · [구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **사내 게시판** — 로그인·세션·게시글 CRUD·이미지 첨부 구현, HTTP 응답·DB 검증 · [API 검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
+- **사내 게시판** — 로그인·세션·게시글 CRUD·이미지 첨부 구현, HTTP 응답·DB 검증 · [구현·검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/README.md)
 - **OTT 웹** — 회원가입·세션 인증·영상 조회·재생 권한 검사·한영 자막 연동 · [구현·검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
 - **굿즈 Store** — 회원·상품·장바구니·모의 주문 웹·API 및 AWS 배포 설계 · [설계 자료](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
 - **AI 자막** — LLM 기반 자막 생성·OTT 연동 담당 · [개발 범위](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
