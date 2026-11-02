@@ -37,13 +37,15 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 
 **담당 범위: 캐나다 지사망 · 클라우드 인프라 · 사내 게시판·OTT·굿즈 Store·AI 자막**
 
-- **지사 네트워크** — Sophos UTM 구역 분리·PC 설정·IPsec VPN 연결 · [구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **AWS 인프라** — CloudFormation 기반 VPC·서브넷·NAT 구성, EKS·서비스 배포·도메인 연결 담당 · [구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+- **지사 네트워크** — Sophos UTM 구역 분리·PC 설정·IPsec VPN 연결
+- **AWS 인프라** — CloudFormation 기반 VPC·서브넷·NAT 구성, EKS·서비스 배포·도메인 연결 담당
 - **사내 게시판** — 로그인·세션·게시글 CRUD·이미지 첨부 구현, HTTP 응답·DB 검증 · [구현·검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/README.md)
 - **OTT 웹** — 회원가입·세션 인증·영상 조회·재생 권한 검사·한영 자막 연동 · [구현·검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
 - **굿즈 Store** — 회원·상품·장바구니·모의 주문 웹·API 및 AWS 배포 설계 · [설계 자료](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
 - **AI 자막** — LLM 기반 자막 생성·OTT 연동 담당 · [개발 범위](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
 - **팀 협업** — WBS 작성·업무 분담·회의 진행 · [협업 기록](https://github.com/team-blocks-lab/otter-shield/blob/main/WBS.md)
+
+[캐나다망·AWS 구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
 ### [Linux·네트워크 인프라 실습](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
@@ -83,11 +85,13 @@ Ubuntu 기반 웹·API·DB 서버 분리 및 네트워크 통신 검증
 
 **담당: 서비스 아이디어 제안 · 반 관리·성적 분석 기능 개발 · 최종 발표**
 
-- **반 관리** — Spring Boot·MyBatis 기반 반 생성·수정·상태 관리 · [구현 코드](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/classroom/ClassroomService.java)
-- **학생·강사 배정** — MySQL N:M 매핑·중복·정원 검사·Soft Delete 적용 · [구현 코드](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/resources/mapper/classroom/ClassroomMapper.xml)
-- **접근통제 검토** — 반 생성·상세 조회의 학원 소유권 검사 및 수정·배정 경로 비교 · [코드 검토](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.md)
-- **성적 분석** — Chart.js 대시보드·개인 성적표 및 월간 리포트 공통 조회 로직 구현 · [구현 코드](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/analytics/AnalyticsService.java)
-- **기획·발표** — 서비스 아이디어 제안·최종 발표 자료 정리·발표 진행 · [발표 자료](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf)
+- **반 관리** — Spring Boot·MyBatis 기반 반 생성·수정·상태 관리
+- **학생·강사 배정** — MySQL N:M 매핑·중복·정원 검사·Soft Delete 적용
+- **접근통제 검토** — 반 생성·상세 조회의 학원 소유권 검사 및 수정·배정 경로 비교
+- **성적 분석** — Chart.js 대시보드·개인 성적표 및 월간 리포트 공통 조회 로직 구현
+- **기획·발표** — 서비스 아이디어 제안·최종 발표 자료 정리·발표 진행
+
+[구현·접근통제](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.md) · [발표 자료](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf)
 
 ## 자격증
 
