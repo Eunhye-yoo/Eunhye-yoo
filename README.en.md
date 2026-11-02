@@ -2,91 +2,85 @@
   <img src="./assets/profile-header-ink-coral.svg" alt="EunHye Yoo · Cloud & AI Security" width="100%" />
 </p>
 
-<p align="center"><strong>Cloud & AI Security</strong></p>
+<p align="center"><strong>Security Solution Implementation & Support · Cloud Security</strong></p>
 <p align="center"><a href="./README.md">한국어</a> · <a href="https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6">Technical Notes</a></p>
 
-I’m EunHye Yoo, preparing for security solution implementation/support and cloud security roles. I build REST APIs with Java/Spring and configure servers and networks with Linux and AWS to understand how services work and how requests reach them.
+## EunHye Yoo
+
+**I bring people together and take the initiative when work needs doing.**
+
+I configure service environments with Linux, networking, and AWS, and develop web APIs with Java and Spring Boot. I compare settings, HTTP responses, and database records to investigate problems.
+
+Studying and working in Canada, volunteering in Cambodia, and communicating with teachers and parents shaped how I work with people. In team projects, I have contributed ideas, built features, and delivered the final presentation.
+
+## Technical Skills
+
+**Security & Networking**
+<p>
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
+  <img src="https://img.shields.io/badge/Sophos%20UTM-1B263B?style=flat-square&amp;logo=sophos&amp;logoColor=white" alt="Sophos UTM" height="24" />
+  <img src="https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square" alt="Routing / NAT" height="24" />
+  <img src="https://img.shields.io/badge/SSH%20%2F%20SCP-415A77?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="SSH / SCP" height="24" />
+</p>
+
+**Cloud & Infrastructure**
+<p>
+  <img src="https://img.shields.io/badge/AWS-1B263B?style=flat-square&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS" height="24" />
+  <img src="https://img.shields.io/badge/CloudFormation%20%C2%B7%20IaC-415A77?style=flat-square" alt="CloudFormation · IaC" height="24" />
+  <img src="https://img.shields.io/badge/EKS-415A77?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="EKS" height="24" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="24" />
+</p>
+
+**Development & API Testing**
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="Postman" height="24" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="24" />
+</p>
+
+Session authentication · Input and ownership checks · HTTP success/error response tests · API-to-database verification
 
 ## Projects
 
-### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield) · In progress
+### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield)
+Hybrid infrastructure and security team project for an OTT service · Oct–Nov 2026
 
-A team project building hybrid infrastructure and testing security for an OTT service. **My responsibilities: project management, application development, and the M5 Canada branch network/AWS setup.**
+**Assigned scope: Canada branch network · Intranet, OTT, and merchandise Store web apps · Cloud infrastructure**
 
-**Intranet · REST API development and testing**
+- Sophos UTM network zones and PC configuration; inter-site VPN and database integration
+- VPC, subnets, NAT, and EKS with AWS CloudFormation; service deployment and domain connection
+- React/Spring Boot intranet, OTT, and Store apps; ERD and REST API design/development
+- Login, sessions, post CRUD, and image APIs; Postman, HTTP status, and MySQL data verification
+- LLM-based subtitle generation
 
-- Built login/logout, post CRUD, image-attachment APIs, and the React UI
-- Tested requests and responses with Postman and checked MySQL data to verify creation, updates, and deletion
-- Implemented server-side session login; verified rejection of unauthenticated requests (`401`) and invalid input such as blank titles (`400`)
-- Implemented BCrypt password handling and post-author checks
+[Intranet API test report](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT implementation](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [Canada branch notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
-[API test report and screenshots](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [Source code](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m1-intranet/backend)
+### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+Personal lab separating web, application, and database servers and checking traffic paths
 
-**OTT service · Member and video APIs**
+- React, Spring Boot, and MySQL on three Ubuntu VMs; CRUD integration
+- Linux NAT router, IP forwarding, MASQUERADE/DNAT, and SSH/SCP
+- External database permissions, connection settings, and remote access checks
+- Netplan conflict resolution and IP/route/NAT persistence checks after reboot
 
-Built signup/login, public-video lookup, and playback APIs. Responses depend on session state and video publication status; checked API/React integration locally.
-
-[Implementation and tests](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott)
-
-**Canada branch and AWS · Extending security practice**
-
-Configured basic connectivity for a Sophos UTM and five PCs. Built VPC/subnets/NAT with AWS CloudFormation and confirmed the EKS control plane was active.
-
-I plan to extend my part of the project by testing VPN business traffic and restrictions on database/management-service access. On AWS, I plan to review administrative permissions and application-to-database access paths.
-
-[M5 technical notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe) · [Security extension plan](./docs/security-plans/m5-access-boundaries.en.md)
-
-### [Full-Stack Integration Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
-
-**A personal lab connecting web requests to a database across separate Linux servers.**
-
-- Deployed React, Spring Boot, and MySQL to separate Ubuntu VMs
-- Configured a Linux NAT router, IP forwarding, MASQUERADE/DNAT, and SSH/SCP
-- Compared API responses, browser output, and database records to check the complete path
-- Investigated connection issues by separating gateway, DNS, proxy, and database settings
-
-[3-Tier lab and tests](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Commands and troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+[3-Tier lab](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Commands and troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
+Academy operations and performance analysis web service · Five-person team · Aug–Sep 2026
 
-A team project for academy operations and learning management. **I implemented class management, teacher/student assignment, dashboards, and individual performance reports.**
+**My role: service idea · Class management and performance analysis features · Final presentation**
 
-Built class creation, multi-instructor/student mapping, and duplicate/capacity checks. Class-detail requests compare the logged-in user’s academy with the requested class’s academy. Connected the Controller, Service, MyBatis, and database layers.
+- Class creation, updates, and status management with Spring Boot/MyBatis
+- Student assignment and multi-instructor mapping in MySQL; duplicate, capacity, and ownership checks; soft deletion
+- Class dashboards and individual reports with Chart.js
+- Shared achievement-query logic reused in a teammate's monthly report
+- Presentation preparation and delivery
 
-[My implementation and access-control review](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md) · [Portfolio PDF, Korean](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo video](https://youtu.be/mkAcPCD7VOY)
-
-## Skills
-
-### Development & API Testing
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
-  <img src="https://img.shields.io/badge/MyBatis-415A77?style=flat-square" alt="MyBatis" height="24" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
-  <img src="https://img.shields.io/badge/JavaScript-B89B00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="24" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="Postman" height="24" />
-</p>
-
-REST APIs · Session authentication · Input validation · Postman request/response checks · MySQL data verification
-
-### Infrastructure & Security
-
-<p>
-  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
-  <img src="https://img.shields.io/badge/SSH%20%2F%20SCP-415A77?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="SSH / SCP" height="24" />
-  <img src="https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square" alt="Routing / NAT" height="24" />
-  <img src="https://img.shields.io/badge/Sophos%20UTM-1B263B?style=flat-square&amp;logo=sophos&amp;logoColor=white" alt="Sophos UTM" height="24" />
-  <img src="https://img.shields.io/badge/AWS-1B263B?style=flat-square&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS" height="24" />
-</p>
-
-- **Linux · SSH:** Remote server access, application/DB separation, connection troubleshooting
-- **Routing · NAT:** IP forwarding, MASQUERADE/DNAT, checking traffic paths between servers
-- **Sophos UTM:** Separate OPS/CONTENT/MGMT networks and basic connectivity setup
-- **AWS:** VPC/subnets/NAT and EKS cluster IAM role setup
-
-[Cloud & API Security Lab plan](./docs/cloud-api-security-lab/README.en.md)
+[Implementation and access-control review](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md) · [Portfolio PDF, Korean](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo](https://youtu.be/mkAcPCD7VOY)
 
 ## Certifications
 
@@ -94,8 +88,6 @@ REST APIs · Session authentication · Input validation · Postman request/respo
 - **Engineer Information Processing, Korea** — Written exam passed
 - **Linux Master Level 2, Korea** — First-stage exam passed
 
-## Technical Notes & English
+## Notes & Communication
 
-I keep source code and API tests on GitHub, and infrastructure configurations, commands, and troubleshooting notes on [Notion](https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6).
-
-I studied and lived in Canada, majored in commerce, and worked in English education. I use this background to read technical documentation and communicate in English.
+I keep code and tests on GitHub, and infrastructure settings, commands, and troubleshooting notes on [Notion](https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6). My commerce studies and work experience in Canada support reading technical documentation and communicating in English.
