@@ -37,13 +37,15 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 
 **Assigned scope: Canada branch network · Cloud infrastructure · Intranet, OTT, Store, and AI subtitles**
 
-- **Branch network** — Sophos UTM zones, PC configuration, and IPsec VPN connection · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **AWS infrastructure** — CloudFormation VPC, subnet, and NAT configuration; EKS, deployment, and domain integration scope · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+- **Branch network** — Sophos UTM zones, PC configuration, and IPsec VPN connection
+- **AWS infrastructure** — CloudFormation VPC, subnet, and NAT configuration; EKS, deployment, and domain integration scope
 - **Intranet** — Login, sessions, post CRUD, and image uploads; HTTP response and database verification · [Implementation and tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/README.md)
 - **OTT web** — Registration, sessions, video queries, playback access checks, and Korean/English subtitles · [Implementation and tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
 - **Merchandise Store** — Member, product, cart, mock-order web/API design and AWS deployment design · [Design](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
 - **AI subtitles** — LLM-based subtitle generation and OTT integration scope · [Development scope](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
 - **Collaboration** — WBS preparation, task allocation, and meeting facilitation · [Collaboration records](https://github.com/team-blocks-lab/otter-shield/blob/main/WBS.md)
+
+[Canada network and AWS build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
 ### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
@@ -83,11 +85,13 @@ Academy operations and performance analysis web service · Five-person team · A
 
 **My role: service idea · Class management and performance analysis · Final presentation**
 
-- **Class management** — Class creation, updates, and status management with Spring Boot/MyBatis · [Code](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/classroom/ClassroomService.java)
-- **Student and instructor assignment** — MySQL N:M mappings, duplicate/capacity checks, and soft deletion · [Code](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/resources/mapper/classroom/ClassroomMapper.xml)
-- **Access-control review** — Academy ownership checks and comparison of create, detail, update, and assignment routes · [Code review](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md)
-- **Performance analysis** — Chart.js dashboards, individual reports, and shared monthly-report query logic · [Code](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/analytics/AnalyticsService.java)
-- **Proposal and presentation** — Service idea, presentation preparation, and final delivery · [Presentation](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf)
+- **Class management** — Class creation, updates, and status management with Spring Boot/MyBatis
+- **Student and instructor assignment** — MySQL N:M mappings, duplicate/capacity checks, and soft deletion
+- **Access-control review** — Academy ownership checks and comparison of create, detail, update, and assignment routes
+- **Performance analysis** — Chart.js dashboards, individual reports, and shared monthly-report query logic
+- **Proposal and presentation** — Service idea, presentation preparation, and final delivery
+
+[Implementation and access control](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md) · [Presentation](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf)
 
 ## Certifications
 
