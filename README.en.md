@@ -13,40 +13,26 @@ I configure service environments with Linux, networking, and AWS, and develop we
 
 Studying and working in Canada, volunteering in Cambodia, and communicating with teachers and parents shaped how I work with people. In team projects, I have contributed ideas, built features, and delivered the final presentation.
 
-## Technical Skills
+## Projects
 
-**Security & Networking**
+### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield)
+
 <p>
-  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
   <img src="https://img.shields.io/badge/Sophos%20UTM-1B263B?style=flat-square&amp;logo=sophos&amp;logoColor=white" alt="Sophos UTM" height="24" />
-  <img src="https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square" alt="Routing / NAT" height="24" />
-  <img src="https://img.shields.io/badge/SSH%20%2F%20SCP-415A77?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="SSH / SCP" height="24" />
-</p>
-
-**Cloud & Infrastructure**
-<p>
   <img src="https://img.shields.io/badge/AWS-1B263B?style=flat-square&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS" height="24" />
-  <img src="https://img.shields.io/badge/CloudFormation%20%C2%B7%20IaC-415A77?style=flat-square" alt="CloudFormation · IaC" height="24" />
+  <img src="https://img.shields.io/badge/CloudFormation-415A77?style=flat-square" alt="CloudFormation" height="24" />
   <img src="https://img.shields.io/badge/EKS-415A77?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="EKS" height="24" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="24" />
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
 </p>
 
-**Development & API Testing**
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="24" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="Postman" height="24" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="24" />
 </p>
 
-Session authentication · Input and ownership checks · HTTP success/error response tests · API-to-database verification
-
-## Projects
-
-### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield)
 Hybrid infrastructure and security team project for an OTT service · Oct–Nov 2026
 
 **Assigned scope: Canada branch network · Intranet, OTT, and merchandise Store web apps · Cloud infrastructure**
@@ -60,6 +46,15 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 [Intranet API test report](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT implementation](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [Canada branch notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
 ### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu" height="24" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+</p>
+
 Personal lab separating web, application, and database servers and checking traffic paths
 
 - React, Spring Boot, and MySQL on three Ubuntu VMs; CRUD integration
@@ -70,6 +65,20 @@ Personal lab separating web, application, and database servers and checking traf
 [3-Tier lab](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Commands and troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/MyBatis-415A77?style=flat-square" alt="MyBatis" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&amp;logo=thymeleaf&amp;logoColor=white" alt="Thymeleaf" height="24" />
+  <img src="https://img.shields.io/badge/JavaScript-B89B00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="24" />
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&amp;logo=chartdotjs&amp;logoColor=white" alt="Chart.js" height="24" />
+</p>
+
 Academy operations and performance analysis web service · Five-person team · Aug–Sep 2026
 
 **My role: service idea · Class management and performance analysis features · Final presentation**
