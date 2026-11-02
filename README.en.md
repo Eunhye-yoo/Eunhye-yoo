@@ -11,7 +11,7 @@
 
 I configure service environments with Linux, networking, and AWS, and develop web APIs with Java and Spring Boot. I compare settings, HTTP responses, and database records to investigate problems.
 
-Studying and working in Canada, volunteering in Cambodia, and communicating with teachers and parents shaped how I work with people. In team projects, I have contributed ideas, built features, and delivered the final presentation.
+Studying and working in Canada, volunteering in Cambodia, and working with teachers, students, and parents taught me to adapt how I communicate to each person's situation and level of understanding. I listen first and explain things in terms they can follow. In team projects, I have contributed ideas, built features, and delivered the final presentation.
 
 ## Projects
 
