@@ -3,7 +3,7 @@
 </p>
 
 <p align="center"><strong>Security Solution Implementation & Support · Cloud Security</strong></p>
-<p align="center"><a href="./README.md">한국어</a> · <a href="https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6">Technical Notes</a></p>
+<p align="center"><a href="./README.md">한국어</a> · <a href="https://app.notion.com/p/3dd1b198732a8059b1b1f2f410f08dc6">Infrastructure Lab Notes</a></p>
 
 ## EunHye Yoo
 
@@ -43,7 +43,7 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 - Login, sessions, post CRUD, and image APIs; Postman, HTTP status, and MySQL data verification
 - LLM-based subtitle generation
 
-[Intranet API test report](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT implementation](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [Canada branch notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+[Intranet API test report](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT implementation](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [Store design](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m5-store) · [Network topology](https://github.com/team-blocks-lab/otter-shield/blob/main/design/topology/README.md) · [Canada network & AWS notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
 ### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
@@ -62,7 +62,7 @@ Personal lab separating web, application, and database servers and checking traf
 - External database permissions, connection settings, and remote access checks
 - Netplan conflict resolution and IP/route/NAT persistence checks after reboot
 
-[3-Tier lab](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Commands and troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+[Infrastructure lab repository](https://github.com/Eunhye-yoo/fullstack-integration-lab) · [3-Tier lab](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [Commands and troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
