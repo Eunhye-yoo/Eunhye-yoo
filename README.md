@@ -57,10 +57,12 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 
 Ubuntu 기반 웹·API·DB 서버 분리 및 네트워크 통신 검증
 
-- **3-Tier 구성** — Ubuntu VM 3대의 React·Spring Boot·MySQL 분리 및 CRUD 연동 · [구성·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md)
-- **네트워크·원격 접속** — Linux NAT Router·IP Forwarding·MASQUERADE·DNAT·SSH/SCP 구성 · [구축 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
-- **DB 접속 제어** — Spring 서버 전용 MySQL 계정·호스트 제한 및 원격 연결 확인 · [구성·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md#spring-boot--mysql)
-- **장애 해결** — Netplan 충돌 해결 및 재부팅 후 IP·경로·NAT 유지 점검 · [문제 해결](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+- **3-Tier 구성** — Ubuntu VM 3대의 React·Spring Boot·MySQL 분리 및 CRUD 연동
+- **네트워크·원격 접속** — Linux NAT Router·IP Forwarding·MASQUERADE·DNAT·SSH/SCP 구성
+- **DB 접속 제어** — Spring 서버 전용 MySQL 계정·호스트 제한 및 원격 연결 확인
+- **장애 해결** — Netplan 충돌 해결 및 재부팅 후 IP·경로·NAT 유지 점검
+
+[구성·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md) · [설정·문제 해결](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
