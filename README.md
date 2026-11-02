@@ -13,40 +13,26 @@
 
 보안 솔루션 구축·기술지원 직무를 목표로 Linux·네트워크·AWS 환경 구성, 웹 서비스 개발·API 테스트를 해왔습니다. 직접 만들고 동작을 확인하고 막히는 부분은 해결해 가며 기술 역량을 쌓고 있습니다.
 
-## 기술 스택
+## 대표 프로젝트
 
-**보안·네트워크**
+### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield)
+
 <p>
-  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
   <img src="https://img.shields.io/badge/Sophos%20UTM-1B263B?style=flat-square&amp;logo=sophos&amp;logoColor=white" alt="Sophos UTM" height="24" />
-  <img src="https://img.shields.io/badge/Routing%20%2F%20NAT-415A77?style=flat-square" alt="Routing / NAT" height="24" />
-  <img src="https://img.shields.io/badge/SSH%20%2F%20SCP-415A77?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="SSH / SCP" height="24" />
-</p>
-
-**클라우드·인프라**
-<p>
   <img src="https://img.shields.io/badge/AWS-1B263B?style=flat-square&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS" height="24" />
-  <img src="https://img.shields.io/badge/CloudFormation%20%C2%B7%20IaC-415A77?style=flat-square" alt="CloudFormation · IaC" height="24" />
+  <img src="https://img.shields.io/badge/CloudFormation-415A77?style=flat-square" alt="CloudFormation" height="24" />
   <img src="https://img.shields.io/badge/EKS-415A77?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="EKS" height="24" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="24" />
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
 </p>
 
-**개발·API 검증**
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="24" />
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&amp;logo=postman&amp;logoColor=white" alt="Postman" height="24" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="24" />
 </p>
 
-세션 인증 · 입력값·소유권 확인 · HTTP 정상·예외 응답 테스트 · API 처리 결과와 DB 데이터 대조
-
-## 대표 프로젝트
-
-### [OTTer Shield](https://github.com/team-blocks-lab/otter-shield)
 OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 2026.10–11
 
 **담당 범위: 캐나다 지사망 · 사내 게시판·OTT·굿즈 Store 웹 · 클라우드 인프라**
@@ -60,6 +46,15 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 [게시판 API 테스트 보고서](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md) · [OTT 구현 자료](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m3-ott) · [캐나다 지사 기술 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
 
 ### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-1B263B?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="24" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu" height="24" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+</p>
+
 웹·애플리케이션·DB를 분리하고 통신 경로를 확인한 개인 실습
 
 - Ubuntu VM 3대에 React·Spring Boot·MySQL 분리 구성 및 CRUD 연동
@@ -70,6 +65,20 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 [3-Tier 실습·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/tree/main/02-linux-3tier) · [명령어·문제 해결 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="24" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot" height="24" />
+  <img src="https://img.shields.io/badge/MyBatis-415A77?style=flat-square" alt="MyBatis" height="24" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="24" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&amp;logo=thymeleaf&amp;logoColor=white" alt="Thymeleaf" height="24" />
+  <img src="https://img.shields.io/badge/JavaScript-B89B00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="24" />
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&amp;logo=chartdotjs&amp;logoColor=white" alt="Chart.js" height="24" />
+</p>
+
 학원 운영·성적 분석 웹 서비스 · 5인 팀 · 2026.08–09
 
 **담당: 서비스 아이디어 제안 · 반 관리·성적 분석 기능 개발 · 최종 발표**
