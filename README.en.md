@@ -37,13 +37,13 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 
 **Assigned scope: Canada branch network · Cloud infrastructure · Intranet, OTT, Store, and AI subtitles**
 
-- **Branch network** — Sophos UTM zones, PC configuration, and IPsec VPN connection · [Topology](https://github.com/team-blocks-lab/otter-shield/blob/main/design/topology/M5_%EC%BA%90%EB%82%98%EB%8B%A4%EB%A7%9D_AS-IS.drawio.png) · [Configuration and connectivity notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **AWS infrastructure** — CloudFormation VPC, subnet, and NAT configuration; responsibility for EKS, service deployment, and domain integration · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **Intranet** — React/Spring Boot login, sessions, post CRUD, and image uploads; HTTP response and MySQL verification · [Code](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m1-intranet) · [API tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
-- **OTT web** — Registration, session authentication, video queries, playback access checks, and Korean/English subtitles · [Code and setup](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md) · [Test evidence](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/docs/evidence/README.md)
-- **Merchandise Store** — Member, product, cart, mock-order API/web design and AWS deployment design · [Design and development scope](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
-- **AI subtitles** — Responsibility for LLM-based generation and OTT integration · [Development scope](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
-- **Collaboration** — WBS preparation, task allocation, and meeting facilitation · [WBS](https://github.com/team-blocks-lab/otter-shield/blob/main/WBS.md) · [Meeting records](https://github.com/team-blocks-lab/otter-shield/blob/main/meetings/README.md)
+- **Branch network** — Sophos UTM zones, PC configuration, and IPsec VPN connection · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+- **AWS infrastructure** — CloudFormation VPC, subnet, and NAT configuration; EKS, deployment, and domain integration scope · [Build notes](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+- **Intranet** — Login, sessions, post CRUD, and image uploads; HTTP response and database verification · [API tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
+- **OTT web** — Registration, sessions, video queries, playback access checks, and Korean/English subtitles · [Implementation and tests](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
+- **Merchandise Store** — Member, product, cart, mock-order web/API design and AWS deployment design · [Design](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
+- **AI subtitles** — LLM-based subtitle generation and OTT integration scope · [Development scope](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
+- **Collaboration** — WBS preparation, task allocation, and meeting facilitation · [Collaboration records](https://github.com/team-blocks-lab/otter-shield/blob/main/WBS.md)
 
 ### [Linux 3-Tier · Network Lab](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
@@ -57,10 +57,10 @@ Hybrid infrastructure and security team project for an OTT service · Oct–Nov 
 
 Personal lab separating web, application, and database servers and checking traffic paths
 
-- **3-Tier configuration** — React, Spring Boot, and MySQL on three Ubuntu VMs; CRUD integration · [Configuration and verification](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md)
-- **Networking and remote access** — Linux NAT router, IP forwarding, MASQUERADE/DNAT, and SSH/SCP · [Settings and commands](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
-- **Database access control** — Spring-host-specific MySQL account and remote connection checks · [Database integration](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md#spring-boot--mysql)
-- **Troubleshooting** — Netplan conflict resolution and IP/route/NAT persistence checks after reboot · [Cause and resolution](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+- **3-Tier configuration** — React, Spring Boot, and MySQL on three Ubuntu VMs; CRUD integration · [Configuration and tests](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md)
+- **Networking and remote access** — Linux NAT router, IP forwarding, MASQUERADE/DNAT, and SSH/SCP · [Build notes](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+- **Database access control** — Spring-host-specific MySQL account and remote connection checks · [Configuration and tests](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md#spring-boot--mysql)
+- **Troubleshooting** — Netplan conflict resolution; IP, route, and NAT persistence after reboot · [Troubleshooting](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
@@ -81,11 +81,11 @@ Academy operations and performance analysis web service · Five-person team · A
 
 **My role: service idea · Class management and performance analysis · Final presentation**
 
-- **Class management** — Creation, updates, and status management with Spring Boot/MyBatis · [Controller](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/controller/classroom/ClassroomController.java) · [Service](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/classroom/ClassroomService.java)
-- **Student and instructor assignment** — MySQL N:M mappings, duplicate/capacity checks, and soft deletion · [SQL Mapper](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/resources/mapper/classroom/ClassroomMapper.xml)
-- **Access-control review** — Academy ownership checks for creation/detail routes and comparison with update/assignment routes · [Code review](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md)
-- **Performance analysis** — Chart.js dashboards, individual reports, and shared monthly-report query logic · [AnalyticsService](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/analytics/AnalyticsService.java)
-- **Proposal and presentation** — Service idea, presentation preparation, and final delivery · [Portfolio PDF, Korean](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [Demo](https://youtu.be/mkAcPCD7VOY)
+- **Class management** — Class creation, updates, and status management with Spring Boot/MyBatis · [Code](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/classroom/ClassroomService.java)
+- **Student and instructor assignment** — MySQL N:M mappings, duplicate/capacity checks, and soft deletion · [Code](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/resources/mapper/classroom/ClassroomMapper.xml)
+- **Access-control review** — Academy ownership checks and comparison of create, detail, update, and assignment routes · [Code review](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.en.md)
+- **Performance analysis** — Chart.js dashboards, individual reports, and shared monthly-report query logic · [Code](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/analytics/AnalyticsService.java)
+- **Proposal and presentation** — Service idea, presentation preparation, and final delivery · [Presentation](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf)
 
 ## Certifications
 
