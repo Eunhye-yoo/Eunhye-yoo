@@ -37,13 +37,13 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 
 **담당 범위: 캐나다 지사망 · 클라우드 인프라 · 사내 게시판·OTT·굿즈 Store·AI 자막**
 
-- **지사 네트워크** — Sophos UTM 구역 분리·PC 설정·IPsec VPN 연결 · [구성도](https://github.com/team-blocks-lab/otter-shield/blob/main/design/topology/M5_%EC%BA%90%EB%82%98%EB%8B%A4%EB%A7%9D_AS-IS.drawio.png) · [설정·통신 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **AWS 인프라** — CloudFormation 기반 VPC·서브넷·NAT 구성, EKS·서비스 배포·도메인 연결 담당 · [AWS 구축 노트](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
-- **사내 게시판** — React·Spring Boot 기반 로그인·세션·게시글 CRUD·이미지 첨부 구현, HTTP 응답·MySQL 데이터 검증 · [코드](https://github.com/team-blocks-lab/otter-shield/tree/main/apps/m1-intranet) · [API 테스트](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
-- **OTT 웹** — 회원가입·세션 인증·영상 조회·재생 권한 검사·한영 자막 연동 · [코드·구성](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md) · [검증 캡처](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/docs/evidence/README.md)
-- **굿즈 Store** — 회원·상품·장바구니·모의 주문 웹·API 및 AWS 배포 설계 · [설계·개발 범위](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
+- **지사 네트워크** — Sophos UTM 구역 분리·PC 설정·IPsec VPN 연결 · [구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+- **AWS 인프라** — CloudFormation 기반 VPC·서브넷·NAT 구성, EKS·서비스 배포·도메인 연결 담당 · [구축 기록](https://app.notion.com/p/3ff1b198732a81c19379cd1f5730afbe)
+- **사내 게시판** — 로그인·세션·게시글 CRUD·이미지 첨부 구현, HTTP 응답·DB 검증 · [API 검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m1-intranet/docs/TEST_REPORT.md)
+- **OTT 웹** — 회원가입·세션 인증·영상 조회·재생 권한 검사·한영 자막 연동 · [구현·검증](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/README.md)
+- **굿즈 Store** — 회원·상품·장바구니·모의 주문 웹·API 및 AWS 배포 설계 · [설계 자료](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m5-store/README.md)
 - **AI 자막** — LLM 기반 자막 생성·OTT 연동 담당 · [개발 범위](https://github.com/team-blocks-lab/otter-shield/blob/main/apps/m3-ott/ai-service/README.md)
-- **팀 협업** — WBS 작성·팀원 업무 분담·회의 진행 · [WBS](https://github.com/team-blocks-lab/otter-shield/blob/main/WBS.md) · [회의 기록](https://github.com/team-blocks-lab/otter-shield/blob/main/meetings/README.md)
+- **팀 협업** — WBS 작성·업무 분담·회의 진행 · [협업 기록](https://github.com/team-blocks-lab/otter-shield/blob/main/WBS.md)
 
 ### [Linux·네트워크 인프라 실습](https://github.com/Eunhye-yoo/fullstack-integration-lab)
 
@@ -58,9 +58,9 @@ OTT 서비스를 위한 하이브리드 인프라·보안 팀 프로젝트 · 20
 Ubuntu 기반 웹·API·DB 서버 분리 및 네트워크 통신 검증
 
 - **3-Tier 구성** — Ubuntu VM 3대의 React·Spring Boot·MySQL 분리 및 CRUD 연동 · [구성·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md)
-- **네트워크·원격 접속** — Linux NAT Router·IP Forwarding·MASQUERADE·DNAT·SSH/SCP 구성 · [설정·명령어](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
-- **DB 접속 제어** — Spring 서버 전용 MySQL 계정·호스트 제한 및 원격 연결 확인 · [DB 연동 기록](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md#spring-boot--mysql)
-- **장애 해결** — Netplan 설정 충돌 해결 및 재부팅 후 IP·경로·NAT 유지 점검 · [원인·조치 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+- **네트워크·원격 접속** — Linux NAT Router·IP Forwarding·MASQUERADE·DNAT·SSH/SCP 구성 · [구축 기록](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
+- **DB 접속 제어** — Spring 서버 전용 MySQL 계정·호스트 제한 및 원격 연결 확인 · [구성·검증](https://github.com/Eunhye-yoo/fullstack-integration-lab/blob/main/02-linux-3tier/README.md#spring-boot--mysql)
+- **장애 해결** — Netplan 충돌 해결 및 재부팅 후 IP·경로·NAT 유지 점검 · [문제 해결](https://app.notion.com/p/3ed1b198732a815091d2e0030512f175)
 
 ### [EduPOP](https://github.com/Eunhye-yoo/EduPOP)
 
@@ -81,11 +81,11 @@ Ubuntu 기반 웹·API·DB 서버 분리 및 네트워크 통신 검증
 
 **담당: 서비스 아이디어 제안 · 반 관리·성적 분석 기능 개발 · 최종 발표**
 
-- **반 관리** — Spring Boot·MyBatis 기반 반 생성·수정·상태 관리 · [Controller](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/controller/classroom/ClassroomController.java) · [Service](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/classroom/ClassroomService.java)
-- **학생·강사 배정** — MySQL N:M 매핑·중복·정원 검사·Soft Delete 적용 · [SQL Mapper](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/resources/mapper/classroom/ClassroomMapper.xml)
+- **반 관리** — Spring Boot·MyBatis 기반 반 생성·수정·상태 관리 · [구현 코드](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/classroom/ClassroomService.java)
+- **학생·강사 배정** — MySQL N:M 매핑·중복·정원 검사·Soft Delete 적용 · [구현 코드](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/resources/mapper/classroom/ClassroomMapper.xml)
 - **접근통제 검토** — 반 생성·상세 조회의 학원 소유권 검사 및 수정·배정 경로 비교 · [코드 검토](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/access-control-review.md)
-- **성적 분석** — Chart.js 대시보드·개인 성적표, 월간 리포트 공통 조회 로직 구현 · [AnalyticsService](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/analytics/AnalyticsService.java)
-- **기획·발표** — 서비스 아이디어 제안·최종 발표 자료 정리·발표 진행 · [포트폴리오 PDF](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf) · [시연 영상](https://youtu.be/mkAcPCD7VOY)
+- **성적 분석** — Chart.js 대시보드·개인 성적표 및 월간 리포트 공통 조회 로직 구현 · [구현 코드](https://github.com/Eunhye-yoo/EduPOP/blob/main/EduPOP/src/main/java/com/example/EduPOP/service/analytics/AnalyticsService.java)
+- **기획·발표** — 서비스 아이디어 제안·최종 발표 자료 정리·발표 진행 · [발표 자료](https://github.com/Eunhye-yoo/EduPOP/blob/main/docs/EduPOP_Portfolio_Eunhye_Yoo.pdf)
 
 ## 자격증
 
